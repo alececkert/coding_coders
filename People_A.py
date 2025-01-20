@@ -25,21 +25,23 @@ almaMaterlabels = [label for label in almaMaterlabels if label is not None]
 
 #print(almaMaterlabels)
 
-Name_and_Uni = [
+Name_Uni_Networth = [
     {
         "name": record.get("http://www.w3.org/2000/01/rdf-schema#label", None),
         "almaMater": record.get("ontology/almaMater_label", None),
+        "networth": record.get("ontology/networth", None)
     }
     for record in data_A
 ]
 
-filtered_Unis = [entry for entry in Name_and_Uni if entry["name"] and entry["almaMater"]]
+filtered_Unis = [entry for entry in Name_Uni_Networth if entry["name"] and entry["almaMater"] and entry ["networth"]]
 
 
 #for entry in filtered_Unis:
-    #print(f"Name: {entry['name']}, University: {entry['almaMater']}")
+ #   print (f"Name: {entry['name']}, University: {entry['almaMater']} , networth: {entry['networth']}")
+
 ivy_league_alumni = [entry for entry in filtered_Unis if entry["almaMater"] in ivy_league_universities]
 
 
 for entry in ivy_league_alumni:
-    print(f"Name: {entry['name']}, University: {entry['almaMater']}")
+    print(f"Name: {entry['name']}, University: {entry['almaMater']}, networth: {entry['networth']}")
