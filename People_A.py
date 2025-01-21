@@ -24,12 +24,12 @@ for file_name in letter:
         data = json.load(file)
 
     # create a list with all univeristies
-    almaMaterlabels = []
+    University = []
     for label in data:
-        almaMaterlabels.append(label.get("ontology/almaMater_label", None))
+        University.append(label.get("ontology/almaMater_label", None))
 
     # filter out none values
-    for university in almaMaterlabels:
+    for university in University:
         if university is not None:
             filtered_almaMater.append(university)
 
