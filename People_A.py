@@ -10,7 +10,8 @@ ivy_league_universities = [
     "Pennsylvania",
     "Dartmouth",
     "Brown",
-    "Cornell"
+    "Cornell",
+    "Yale"
 ]
 
 university_keys = [
@@ -65,20 +66,20 @@ for file_name in letter:
 
     # filter for only people that went to an ivy league uni
     for alumnus in filtered_data:
-        almaMaters = alumnus["almaMater"]
+        Education = alumnus["almaMater"]
         
-        if isinstance(almaMaters, list):
-            for alma in almaMaters:
-            
-                if any(ivy_uni in alma for ivy_uni in ivy_league_universities):
-                    ivy_league_alumni.append(alumnus)
-                    
+        
+        if isinstance(Education, list):
+          
+            if any(ivy_uni in alma for alma in Education for ivy_uni in ivy_league_universities):
+                ivy_league_alumni.append(alumnus)
             else:
                 non_ivy_league_alumni.append(alumnus)
-        elif any(ivy_uni in almaMaters for ivy_uni in ivy_league_universities):
-            ivy_league_alumni.append(alumnus)
+        elif any(ivy_uni in Education for ivy_uni in ivy_league_universities):
+                ivy_league_alumni.append(alumnus)
         else:
-            non_ivy_league_alumni.append(alumnus)
+                non_ivy_league_alumni.append(alumnus)          
+            
 
         
 
