@@ -28,17 +28,18 @@ print(barplot1)
 
 datacombined <- read_csv('combined.csv')
 data_divided<- datacombined |> 
-  summarise(meanivy_league == True) |> 
-  summarise(avg_netw = mean(networth))
+  mutate(networth = as.numeric(networth))|>
+  group_by(ivy_league)|>
+  summarise(networth=mean(networth,na.rm=TRUE))
+print(data_divided)
 
-
-barplot2 <- ggplot(data= data_grouped_all)+
-  aes(x= data_ivy, data_nonivy, y=average_networth)+
+barplot2 <- ggplot(data= data_divided)+
+  aes(x= ivy_league, y=networth)+
   geom_col()+
   labs(
     title='Average Net Worth of Ivy League Alumni on Wikipedia',
     x= "Ivy League Alumni",
     y= "Average Net Worth in USD"
   )
-#print(barplot2)
+print(barplot2)
 
