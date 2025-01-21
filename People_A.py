@@ -30,18 +30,6 @@ for file_name in letter:
     with open(f'People/{file_name}_people.json', 'r') as file:
         data = json.load(file)
 
-    #print(filtered_almaMater)
-
-    # select data with name, almaMater, and networth all together
-    # Name_Uni_Networth = [
-    #     {
-    #         "name": label.get("http://www.w3.org/2000/01/rdf-schema#label"),
-    #         "almaMater": label.get("ontology/almaMater_label"),
-    #         "networth": label.get("ontology/networth")
-    #     }
-    #     for label in data
-    # ]
-
     # create a list with name, uni, and networth
     filtered_data = []
     for person in data:
