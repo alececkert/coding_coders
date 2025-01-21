@@ -84,23 +84,25 @@ for file_name in letter:
 
 
 for entry in ivy_league_alumni:
+   entry['ivy_league'] = True
    print(f"Name: {entry['name']}, University: {entry['education']}, Networth: {entry['networth']}")
 
 for entry in non_ivy_league_alumni:
+    entry['ivy_league'] = False
     print(f"Name: {entry['name']}, University: {entry['education']}, Networth: {entry['networth']}")
 
 with open("ivy_league.csv", "w", encoding="utf-8", newline="") as file:
-    writer = csv.DictWriter(file, ["name", "education", "networth"])
+    writer = csv.DictWriter(file, ["name", "ivy_league", "education", "networth"])
     writer.writeheader()
     writer.writerows(ivy_league_alumni)
 
 with open("non_ivy_league.csv", "w", encoding="utf-8", newline="") as file:
-    writer = csv.DictWriter(file, ["name", "education", "networth"])
+    writer = csv.DictWriter(file, ["name", "ivy_league", "education", "networth"])
     writer.writeheader()
     writer.writerows(non_ivy_league_alumni)
 
 with open("combined.csv", "w", encoding="utf-8", newline="") as file:
-    writer = csv.DictWriter(file, ["name", "education", "networth"])
+    writer = csv.DictWriter(file, ["name", "ivy_league", "education", "networth"])
     writer.writeheader()
     writer.writerows(ivy_league_alumni)
     writer.writerows(non_ivy_league_alumni)
