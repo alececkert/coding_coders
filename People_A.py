@@ -22,6 +22,7 @@ university_keys = [
     "ontology/almaMater"
 ]
 
+non_ivy_league_alumni = []
 
 letter=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 filtered_almaMater = []
@@ -74,6 +75,8 @@ for file_name in letter:
     for alumnus in filtered_data:
         if alumnus["almaMater"] in ivy_league_universities:
             ivy_league_alumni.append(alumnus)
+        else:
+            non_ivy_league_alumni.append(alumnus)
 
 
 for entry in ivy_league_alumni:
@@ -83,3 +86,8 @@ with open("results.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, ["name", "almaMater", "networth"])
     writer.writeheader()
     writer.writerows(ivy_league_alumni)
+
+with open("non_ivy_league_results.csv", "w", encoding="utf-8", newline="") as file:
+    writer = csv.DictWriter(file, ["name", "almaMater", "networth"])
+    writer.writeheader()
+    writer.writerows(non_ivy_league_alumni)
