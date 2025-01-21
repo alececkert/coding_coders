@@ -99,3 +99,9 @@ with open("non_ivy_league.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, ["name", "almaMater", "networth"])
     writer.writeheader()
     writer.writerows(non_ivy_league_alumni)
+
+with open("combined.csv", "w", encoding="utf-8", newline="") as file:
+    writer = csv.DictWriter(file, ["name", "almaMater", "networth"])
+    writer.writeheader()
+    writer.writerows(ivy_league_alumni)
+    writer.writerows(non_ivy_league_alumni)
