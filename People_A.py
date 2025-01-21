@@ -4,22 +4,20 @@ import csv
 
 # insert ivy league universities
 ivy_league_universities = [
-    "Harvard University",
-    "Yale University",
-    "Princeton University",
-    "Columbia University",
-    "University of Pennsylvania",
-    "Dartmouth College",
-    "Brown University",
-    "Cornell University"
+    "Harvard",  
+    "Princeton",
+    "Columbia",
+    "Pennsylvania",
+    "Dartmouth",
+    "Brown",
+    "Cornell"
 ]
 
 university_keys = [
     "ontology/almaMater_label",
-    "ontology/education",
     "ontology/education_label",
-    "ontology/university_label",
-    "ontology/almaMater"
+    "ontology/university_label"
+    
 ]
 
 non_ivy_league_alumni = []
@@ -38,19 +36,13 @@ for file_name in letter:
         for university_key in university_keys:
             university = label.get(university_key)
             if university is not None:
-                Universities.append(university)
-        # universities = [
-            #label.get("ontology/almaMater_label"),
-            #label.get("ontology/education"),
-            #label.get("ontology/education_label"),
-            #label.get("ontology/university_label")
-        #]
+                if isinstance(university, str) and university.startswith('[') and university.endswith(']'):
+                    university = json.loads(university)
+                if isinstance(university, list):
+                    Universities.extend(university)
+        
 
-    # for university in Universities:
-    #     if university is not None:
-    #         Universities.append(university)
-
-    print(filtered_almaMater)
+    #print(filtered_almaMater)
 
     # select data with name, almaMater, and networth all together
     Name_Uni_Networth = [
@@ -68,26 +60,41 @@ for file_name in letter:
         if data["name"] and data["almaMater"] and data["networth"]:
             filtered_data.append(data)
 
-    for entry in filtered_data:
-       print (f"Name: {entry['name']}, University: {entry['almaMater']} , networth: {entry['networth']}")
+    #for entry in filtered_data:
+     #  print (f"Name: {entry['name']}, University: {entry['almaMater']} , networth: {entry['networth']}")
 
     # filter for only people that went to an ivy league uni
     for alumnus in filtered_data:
-        if alumnus["almaMater"] in ivy_league_universities:
+        almaMaters = alumnus["almaMater"]
+        
+        if isinstance(almaMaters, list):
+            for alma in almaMaters:
+            
+                if any(ivy_uni in alma for ivy_uni in ivy_league_universities):
+                    ivy_league_alumni.append(alumnus)
+                    
+            else:
+                non_ivy_league_alumni.append(alumnus)
+        elif any(ivy_uni in almaMaters for ivy_uni in ivy_league_universities):
             ivy_league_alumni.append(alumnus)
         else:
             non_ivy_league_alumni.append(alumnus)
+
+        
 
 
 for entry in ivy_league_alumni:
    print(f"Name: {entry['name']}, University: {entry['almaMater']}, Networth: {entry['networth']}")
 
-with open("results.csv", "w", encoding="utf-8", newline="") as file:
+for entry in non_ivy_league_alumni:
+    print(f"Name: {entry['name']}, University: {entry['almaMater']}, Networth: {entry['networth']}")
+
+with open("ivy_league.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, ["name", "almaMater", "networth"])
     writer.writeheader()
     writer.writerows(ivy_league_alumni)
 
-with open("non_ivy_league_results.csv", "w", encoding="utf-8", newline="") as file:
+with open("non_ivy_league.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, ["name", "almaMater", "networth"])
     writer.writeheader()
     writer.writerows(non_ivy_league_alumni)
