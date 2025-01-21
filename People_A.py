@@ -1,6 +1,7 @@
 
 import json
 
+# insert ivy league universities
 ivy_league_universities = [
     "Harvard University",
     "Yale University",
@@ -12,36 +13,47 @@ ivy_league_universities = [
     "Cornell University"
 ]
 
-#ivy_league_universities = [uni.lower() for uni in ivy_league_universities]
-
 with open("People/A_people.json", "r") as file:
     data_A = json.load(file)
 
-almaMaterlabels = [record.get("ontology/almaMater_label", None) for record in data_A]
+# create a list with all univeristies
+almaMaterlabels = []
+for label in data_A:
+    almaMaterlabels.append(label.get("ontology/almaMater_label", None))
 
-# Filter out None values
-almaMaterlabels = [label for label in almaMaterlabels if label is not None]
+# filter out none values
+filtered_almaMater = []
+for university in almaMaterlabels:
+    if university is not None:
+        filtered_almaMater.append(university)
 
+#print(filtered_almaMater)
 
-#print(almaMaterlabels)
-
+# select data with name, almaMater, and networth all together
 Name_Uni_Networth = [
     {
-        "name": record.get("http://www.w3.org/2000/01/rdf-schema#label", None),
-        "almaMater": record.get("ontology/almaMater_label", None),
-        "networth": record.get("ontology/networth", None)
+        "name": label.get("http://www.w3.org/2000/01/rdf-schema#label", None),
+        "almaMater": label.get("ontology/almaMater_label", None),
+        "networth": label.get("ontology/networth", None)
     }
-    for record in data_A
+    for label in data_A
 ]
 
-filtered_Unis = [entry for entry in Name_Uni_Networth if entry["name"] and entry["almaMater"] and entry ["networth"]]
+# create a list with name, uni, and networth
+filtered_data = []
+for data in Name_Uni_Networth:
+    if data["name"] and data["almaMater"] and data["networth"]:
+        filtered_data.append(data)
 
-
-#for entry in filtered_Unis:
+#for entry in filtered_data:
  #   print (f"Name: {entry['name']}, University: {entry['almaMater']} , networth: {entry['networth']}")
 
-ivy_league_alumni = [entry for entry in filtered_Unis if entry["almaMater"] in ivy_league_universities]
+# filter for only people that went to an ivy league uni
+ivy_league_alumni = []
+for alumnus in filtered_data:
+    if alumnus["almaMater"] in ivy_league_universities:
+        ivy_league_alumni.append(alumnus)
 
 
 for entry in ivy_league_alumni:
-    print(f"Name: {entry['name']}, University: {entry['almaMater']}, networth: {entry['networth']}")
+    print(f"Name: {entry['name']}, University: {entry['almaMater']}, Networth: {entry['networth']}")
