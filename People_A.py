@@ -1,5 +1,6 @@
 
 import json
+import csv
 
 # insert ivy league universities
 ivy_league_universities = [
@@ -13,7 +14,14 @@ ivy_league_universities = [
     "Cornell University"
 ]
 
-#ivy_league_universities = [uni.lower() for uni in ivy_league_universities]
+university_keys = [
+    "ontology/almaMater_label",
+    "ontology/education",
+    "ontology/education_label",
+    "ontology/university_label",
+    "ontology/almaMater"
+]
+
 
 letter=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 filtered_almaMater = []
@@ -24,23 +32,31 @@ for file_name in letter:
         data = json.load(file)
 
     # create a list with all univeristies
-    University = []
+    Universities = []
     for label in data:
-        University.append(label.get("ontology/almaMater_label", None))
+        for university_key in university_keys:
+            university = label.get(university_key)
+            if university is not None:
+                Universities.append(university)
+        # universities = [
+            #label.get("ontology/almaMater_label"),
+            #label.get("ontology/education"),
+            #label.get("ontology/education_label"),
+            #label.get("ontology/university_label")
+        #]
 
-    # filter out none values
-    for university in University:
-        if university is not None:
-            filtered_almaMater.append(university)
+    # for university in Universities:
+    #     if university is not None:
+    #         Universities.append(university)
 
-    #print(filtered_almaMater)
+    print(filtered_almaMater)
 
     # select data with name, almaMater, and networth all together
     Name_Uni_Networth = [
         {
-            "name": label.get("http://www.w3.org/2000/01/rdf-schema#label", None),
-            "almaMater": label.get("ontology/almaMater_label", None),
-            "networth": label.get("ontology/networth", None)
+            "name": label.get("http://www.w3.org/2000/01/rdf-schema#label"),
+            "almaMater": label.get(university_keys[0]),
+            "networth": label.get("ontology/networth")
         }
         for label in data
     ]
@@ -51,8 +67,8 @@ for file_name in letter:
         if data["name"] and data["almaMater"] and data["networth"]:
             filtered_data.append(data)
 
-    #for entry in filtered_data:
-    #   print (f"Name: {entry['name']}, University: {entry['almaMater']} , networth: {entry['networth']}")
+    for entry in filtered_data:
+       print (f"Name: {entry['name']}, University: {entry['almaMater']} , networth: {entry['networth']}")
 
     # filter for only people that went to an ivy league uni
     for alumnus in filtered_data:
@@ -61,4 +77,9 @@ for file_name in letter:
 
 
 for entry in ivy_league_alumni:
-    print(f"Name: {entry['name']}, University: {entry['almaMater']}, Networth: {entry['networth']}")
+   print(f"Name: {entry['name']}, University: {entry['almaMater']}, Networth: {entry['networth']}")
+
+with open("results.csv", "w", encoding="utf-8", newline="") as file:
+    writer = csv.DictWriter(file, ["name", "almaMater", "networth"])
+    writer.writeheader()
+    writer.writerows(ivy_league_alumni)
