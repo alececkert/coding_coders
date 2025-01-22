@@ -125,7 +125,7 @@ with open("combined.csv", "w", encoding="utf-8", newline="") as file:
     writer.writerows(filter_fields(non_ivy_league_alumni, headers_without_birth_year))
 
 #make a csv with both ppl that attended ivy and non-ivy AND their birth year
-with open("with birth year after 2019.csv", "w", encoding="utf-8", newline="") as file:
+with open("with_birth_year_after_2019.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, headers)
     writer.writeheader()
     writer.writerows(ivy_after_1920)  

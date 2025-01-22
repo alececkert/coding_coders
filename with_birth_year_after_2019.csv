@@ -1,0 +1,739 @@
+name,ivy_league,education,networth,birthYear
+Amos Hostetter Jr.,True,"['Amherst College', 'Harvard University', 'Economics']",3.2E9,1937
+Ana Patricia Botín,True,"['Bryn Mawr College', 'Harvard Business School']",1.35E8,1960
+Anand Mahindra,True,"['Lawrence School Lovedale', 'Harvard University', 'Harvard Business School']",1.2E9,1955
+Anil Ambani,True,"['Wharton School of the University of Pennsylvania', 'University of Mumbai']",4.3E9,1959
+Anil Kumar,True,"['Imperial College London', 'Indian Institute of Technology Bombay', 'Wharton School of the University of Pennsylvania', 'The Doon School']",50.0,1958
+Anthony Pritzker,True,"['Dartmouth College', 'University of Chicago']",3.4E9,1961
+Alejandro Santo Domingo,True,"['Harvard University', 'Hotchkiss School']",4.6E9,1977
+Alexander Knaster,True,"['Carnegie Mellon University', 'Harvard Business School']",2.2E9,1959
+Allan Gray (investor),True,"['Rhodes University', 'Harvard Business School']",1.05E10,1938
+Ayman Asfari,True,"['University of Pennsylvania', 'Villanova University']",1.2E9,1958
+Abigail Johnson,True,"['Hobart and William Smith Colleges', 'Harvard Business School']",1.37E10,1961
+Abílio Diniz,True,"['Columbia University', 'University of Dayton', 'Fundação Getúlio Vargas']",4.4E9,1936
+Alan Leventhal,True,"['Dartmouth College', 'Northwestern University']",1.0E9,1953
+Alan Trefler,True,['Dartmouth College'],1.0E9,1956
+Belmiro de Azevedo,True,"['Stanford University', 'Harvard University', 'University of Porto']",1.5E9,1938
+Ben Silbermann,True,['Yale University'],1.6E9,1982
+Ben Stein,True,"['Columbia University', 'Yale Law School']",2.0E7,1944
+Bill Ackman,True,"['Harvard College', 'Harvard Business School']",2.6E9,1966
+Brian L. Roberts,True,"['Wharton School of the University of Pennsylvania', 'Germantown Academy']",1.47E9,1959
+Bruno Schroder,True,"['University College Oxford', 'François Rabelais University', 'Harvard Business School', 'Eton College']",5.0E9,1933
+Charlie Munger,True,"['California Institute of Technology', 'University of Michigan', 'Berkshire Hathaway', 'Wesco Financial', 'Daily Journal Corporation', 'Harvard Law School']",1.21E9,1924
+Chung Yong-jin,True,['Brown University'],1.3E9,1968
+Cargill MacMillan Jr,True,['Yale University'],2.6E9,1927
+Carl Icahn,True,"['Princeton University', 'New York University School of Medicine']",1.7E10,1936
+Chad Hurley,True,['Indiana University of Pennsylvania'],3.55E8,1977
+Charles Bartlett Johnson,True,['Yale University'],4.6E9,1933
+Charles Butt,True,"['University of Pennsylvania', 'Harvard Business School']",1.08E10,1938
+David Bonderman,True,"['University of Washington', 'Harvard Law School']",2.6E9,1942
+David Einhorn (hedge fund manager),True,['Cornell University'],1.93E9,1968
+David Gottesman,True,"['Trinity College (Connecticut)', 'Harvard University']",1.76E9,1926
+Dirk Edward Ziff,True,"['Columbia University', 'Harvard University']",5.0E9,1965
+Donald Trump Jr.,True,['University of Pennsylvania'],2.75E8,1977
+Dustin Moskovitz,True,['Harvard University'],9.2E9,1984
+Daniel A. D'Aniello,True,"['Syracuse University', 'Harvard Business School']",3.0E9,1946
+Daniel M. Ziff,True,['Columbia University'],5.0E9,1973
+Daniel Och,True,['University of Pennsylvania'],3.9E9,1961
+Daniel S. Loeb,True,['Columbia University'],2.6E9,1961
+Edmund Ansin,True,"['University of Pennsylvania', 'Wharton School of the University of Pennsylvania']",1.4E9,1936
+Eduardo Saverin,True,['Harvard University'],7.2E9,1982
+Eric Schmidt,True,"['Princeton University', 'University of California Berkeley']",1.03E10,1955
+Ernesto Bertarelli,True,"['Babson College', 'Harvard Business School']",8.7E9,1965
+Eugenio Lopez III,True,"['Bowdoin College', 'Harvard Business School']",9.0E7,1952
+Frank Batten,True,"['University of Virginia', 'Harvard University']",2.3E9,1927
+Frederick R. Koch,True,"['Harvard University', 'Playwright', 'Bachelor of Arts', 'Master of Fine Arts', 'Liberal arts education']",4.0E9,1933
+Frederick W. Smith,True,['Yale University'],3.6E9,1944
+Forrest Mars Jr.,True,"['Yale University', 'Hotchkiss School', 'New York University']",2.36E10,1931
+George Joseph (West Virginia),True,['Harvard University'],1.15E9,1921
+George Kaiser,True,"['Harvard College', 'Harvard Business School']",7.1E9,1942
+George Lindemann,True,['Wharton School of the University of Pennsylvania'],4.0E9,1936
+Gianfelice Rocca,True,"['University of Milan', 'Harvard Business School']",4.7E9,1948
+Gabe Newell,True,['Harvard University'],2.2E9,1962
+Gordon McLendon,True,"['Yale University', 'Harvard Law School']",2.5E8,1921
+Hiroshi Mikitani,True,"['Hitotsubashi University', 'Harvard University']",8.7E9,1965
+Howard Marks (investor),True,"['University of Chicago', 'Wharton School of the University of Pennsylvania']",2.0E9,1946
+Hüsnü Özyeğin,True,"['Oregon State University', 'Harvard University']",2.7E9,1944
+Hansjörg Wyss,True,"['ETH Zurich', 'Harvard Business School']",6.1E9,1935
+Henry Kravis,True,"['Columbia Business School', 'Claremont McKenna College']",4.8E9,1944
+Henry Silverman,True,"['Williams College', 'University of Pennsylvania Law School']",3.0E8,1940
+Indra Nooyi,True,"['Indian Institute of Management Calcutta', 'Madras Christian College', 'Yale School of Management']",1.44E8,1955
+Irvine Laidlaw Baron Laidlaw,True,"['Columbia Business School', 'University of Leeds', 'Merchiston Castle School']",7.45E8,1942
+Irwin M. Jacobs,True,"['Massachusetts Institute of Technology', 'Cornell University', 'Doctor of Science']",1.23E9,1933
+Jerry Speyer,True,['Columbia University'],4.0E9,1940
+Jim Balsillie,True,"['Wilfrid Laurier University', 'University of Toronto', 'Harvard Business School']",8.0E8,1961
+Jim Breyer,True,"['Stanford University', 'Harvard University']",2.0E9,1961
+Jim Pattison,True,['University of British Columbia'],6.6E9,1928
+John C. Malone,True,"['Yale University', 'Johns Hopkins University', 'New York University', 'Doctor of Philosophy']",6.5E9,1941
+John Doerr,True,"['Rice University', 'Harvard Business School']",4.1E9,1951
+Jamie Dimon,True,"['Tufts University', 'Harvard Business School']",1.1,1956
+Jeff Bezos,True,['Princeton University'],4.89E10,1964
+Jeff Greene,True,"['Johns Hopkins University', 'Harvard Business School']",3.0E9,1954
+Jeff Sutton (real estate developer),True,['University of Pennsylvania'],3.4E9,1960
+Jerome Kohlberg Jr.,True,"['Swarthmore College', 'Columbia Law School', 'Harvard Business School']",1.2E9,1925
+John Franklyn Mars,True,"['Yale University', 'Hotchkiss School']",2.36E10,1935
+John J. Fisher,True,"['Princeton University', 'Stanford University']",2.4E9,1961
+John Paulson,True,"['New York University', 'Harvard Business School', 'Master of Business Administration', 'Bachelor of Science']",9.8E9,1955
+Jon Oringer,True,"['Columbia University', 'Stony Brook University']",1.0E9,1974
+Jonathan D. Gray,True,['University of Pennsylvania'],1.66E9,1970
+Jonathan M. Nelson,True,"['Brown University', 'Harvard Business School']",1.76E9,1956
+Jorge Paulo Lemann,True,['Harvard University'],2.82E10,1939
+Joshua Harris (businessman),True,"['Wharton School of the University of Pennsylvania', 'Harvard Business School']",2.4E9,1965
+J. Christopher Flowers,True,['Harvard University'],1.4E9,1957
+Jacky Xu,True,"['Nanyang Technological University', 'University of Liverpool', 'Harvard University']",1000000.0,1984
+Jaime Aristotle Alip,True,"['University of the Philippines', 'Harvard Business School']",6000000.0,1957
+Jaime Gilinski Bacal,True,['Harvard Business School'],2.9E9,1957
+James Dinan,True,"['University of Pennsylvania', 'Harvard University']",1.6E9,1959
+Ken Moelis,True,['Wharton School of the University of Pennsylvania'],3.86E8,1958
+Kenneth C. Griffin,True,['Harvard University'],7.3E9,1968
+Keshub Mahindra,True,"['University of Pennsylvania', 'Wharton School of the University of Pennsylvania']",6.15E8,1923
+Larry Robbins,True,['University of Pennsylvania'],2.3E9,1969
+Laurene Powell Jobs,True,"['University of Pennsylvania', 'Stanford Graduate School of Business', 'Master of Business Administration', 'Bachelor of Science', 'Bachelor of Arts']",1.67E10,1963
+Lee Jae-yong,True,"['Seoul National University', 'Keio University', 'Harvard Business School']",7.9E9,1968
+Leon Black,True,"['Dartmouth College', 'Harvard Business School']",4.5E9,1951
+Leon G. Cooperman,True,"['Columbia University', 'Hunter College']",3.7E9,1943
+Leonard Blavatnik,True,"['Columbia University', 'Moscow State University of Railway Engineering', 'Harvard University']",1.68E10,1957
+Leonard Lauder,True,"['Columbia University', 'University of Pennsylvania']",9.1E9,1933
+Leonard Schleifer,True,"['University of Virginia', 'Cornell University']",1.0E9,1953
+Louis Bacon,True,"['Columbia Business School', 'Middlebury College']",1.81E9,1956
+Louis V. Gerstner Jr.,True,"['Dartmouth College', 'Harvard Business School']",6.3E8,1942
+Marc Rowan,True,['Wharton School of the University of Pennsylvania'],2.83E9,1962
+Marcel Herrmann Telles,True,"['Federal University of Rio de Janeiro', 'Harvard University']",1.28E10,1950
+Marcos Galperin,True,"['Stanford University', 'Wharton School of the University of Pennsylvania']",4.0E8,1971
+Meg Whitman,True,"['Princeton University', 'Harvard Business School']",2.1E9,1956
+Mario Gabelli,True,"['Columbia Business School', 'Fordham University']",1.1E9,1942
+Marjorie Yang,True,"['Massachusetts Institute of Technology', 'Harvard Business School']",1.0E9,1952
+Mark Pears,True,"['Harvard Business School', 'City of London School']",2.1E9,1962
+Mark Pincus,True,"['University of Pennsylvania', 'Harvard University']",1.1E9,1966
+Mark Zuckerberg,True,['Harvard University'],4.6E10,1984
+Martin Sorrell,True,"[""Christ's College Cambridge"", ""Haberdashers' Aske's Boys' School"", 'Harvard University']",2.57E8,1945
+Matt Cohler,True,['Yale University'],7.0E8,1977
+Mortimer Zuckerman,True,"['Wharton School of the University of Pennsylvania', 'McGill University', 'Harvard Law School', 'Bachelor of Civil Law']",2.4E9,1937
+Nelson Peltz,True,['Wharton School of the University of Pennsylvania'],1.35E9,1942
+Patrick Soon-Shiong,True,"['University of California Los Angeles', 'University of British Columbia', 'University of the Witwatersrand']",1.18E10,1952
+Paul Singer (businessman),True,"['University of Rochester', 'Juris Doctor', 'Bachelor of Science', 'Harvard Law School']",2.1E9,1944
+Peter B. Lewis,True,['Princeton University'],1.25E9,1933
+Peter Buck (restaurateur),True,"['Columbia University', 'Bowdoin College', 'Doctor of Humane Letters']",2.6E9,1930
+Peter Livanos,True,['Columbia University'],7.0E9,1958
+Peter Lynch,True,"['Boston College', 'Wharton School of the University of Pennsylvania']",3.52E8,1944
+Robert Bass,True,"['Stanford University', 'Yale University']",5.5E9,1948
+Robert D. Ziff,True,"['Cornell University', 'Harvard University']",5.0E9,1967
+Robert J. Fisher,True,"['Princeton University', 'Stanford University']",1.6E9,1954
+Robert L. Johnson,True,"['Princeton University', 'University of Illinois at Urbana–Champaign']",5.5E8,1946
+Roberto Civita,True,['Wharton School of the University of Pennsylvania'],4.9E9,1936
+Ronald Mourad Cohen,True,"['University of Oxford', 'Harvard Business School']",2.2E8,1945
+Randy Lerner,True,"['Columbia University', 'Columbia Law School']",1.1E9,1962
+Raymond Kwok,True,"['Harvard Business School', 'University of Cambridge']",1.63E10,1952
+Richard LeFrak,True,"['Columbia University', 'Amherst College']",6.5E9,1945
+Rahul Bajaj,True,['Harvard Business School'],2.7E9,1938
+Raj Rajaratnam,True,['Wharton School of the University of Pennsylvania'],1.8E9,1957
+Rajat Gupta,True,"['Indian Institute of Technology Delhi', 'Harvard Business School']",1.0E8,1948
+Sean Healey,True,"['Harvard College', 'Harvard Law School']",1.0E8,1961
+Seth Klarman,True,"['Cornell University', 'Harvard Business School']",1.35E9,1957
+Sheryl Sandberg,True,"['Harvard University', 'Master of Business Administration']",1.31E9,1969
+Shin Dong-bin,True,"['Columbia University', 'Aoyama Gakuin University']",1.48E9,1955
+Sid Bass,True,"['Yale University', 'Stanford Graduate School of Business']",3.0E9,1942
+Stephen A. Jarislowsky,True,"['Cornell University', 'Harvard Business School']",1.6E9,1925
+Stephen A. Schwarzman,True,"['Yale University', 'Harvard Business School']",9.7E9,1947
+Stephen Mandel (hedge fund manager),True,"['Dartmouth College', 'Harvard University']",1.8E9,1956
+Steve Ballmer,True,"['Stanford Graduate School of Business', 'Harvard University']",2.4E10,1956
+Steve Feinberg,True,['Princeton University'],1.25E9,1960
+Steve Wynn,True,['University of Pennsylvania'],2.3E9,1942
+Steven A. Cohen,True,['Wharton School of the University of Pennsylvania'],1.2E10,1956
+Steven Roth,True,"['Dartmouth College', 'Tuck School of Business']",1.0E9,1941
+S. Robson Walton,True,"['Columbia Law School', 'University of Arkansas']",3.21E10,1944
+Safra A. Catz,True,"['University of Pennsylvania', 'University of Pennsylvania Law School']",5.25E8,1961
+Sanford I. Weill,True,['Cornell University'],1.0E9,1933
+Stuart A. Miller,True,"['University of Miami', 'Harvard Business School']",9.0E8,1957
+Thomas H. Lee (businessman),True,['Harvard College'],2.0E9,1944
+Tom Steyer,True,"['Stanford Graduate School of Business', 'Yale College']",1.6E9,1957
+Tony Hsieh,True,['Harvard University'],8.4E8,1973
+Tory Burch,True,['University of Pennsylvania'],1.0E9,1966
+Ted Turner,True,"['Brown University', 'The McCallie School']",2.2E9,1938
+Terrence Pegula,True,['Pennsylvania State University'],4.0E9,1951
+Victor Fung,True,"['Massachusetts Institute of Technology', 'Harvard Business School']",2.9E9,1945
+Warren Buffett,True,"['Columbia Business School', 'University of Nebraska–Lincoln', 'Economics', 'Master of Science']",6.1E10,1930
+Whitney MacMillan,True,['Yale University'],4.6E9,1929
+Wilbur Ross,True,"['Yale University', 'Xavier High School (New York City)', 'Harvard Business School']",2.9E9,1937
+William Clay Ford Sr.,True,"['Yale University', 'Hotchkiss School']",1.4E9,1925
+William E. Conway Jr.,True,"['Dartmouth College', 'Booth School of Business']",2.5E9,1949
+William Randolph Hearst III,True,['Harvard University'],1.8E9,1949
+William S. Fisher,True,"['Princeton University', 'Stanford University']",1.55E9,1958
+Yuri Milner,True,"['Wharton School of the University of Pennsylvania', 'Moscow State University']",3.1E9,1961
+A. Alfred Taubman,False,"['Lawrence Technological University', 'Taubman College of Architecture and Urban Planning']",3.1E9,1924
+Andrew Beal,False,"['Michigan State University', 'Baylor University']",7.6E9,1952
+Andrew Black (gambling entrepreneur),False,"['University of Exeter', ""King's College School""]",1.25E8,1963
+Andrew Cherng,False,"['Baker University', 'University of Missouri']",3.2E9,1948
+Andrew Gower,False,['University of Cambridge'],1.38E8,1978
+Andrew Mason,False,"['Northwestern University', 'Bienen School of Music']",2.0E8,1980
+Andrey Melnichenko,False,['Plekhanov Russian University of Economics'],8.0E9,1972
+Andrónico Luksic Craig,False,['Babson College'],1.46E7,1954
+Angela Ahrendts,False,['Ball State University'],1.5E8,1960
+Ann Gloag,False,['Perth High School'],1.04E9,1942
+Ann Walton Kroenke,False,['Lincoln University (Missouri)'],4.6E9,1948
+Anne Hendricks Bass,False,['Park Tudor School'],6.9E8,1941
+Anthony Bamford,False,['Ampleforth College'],3.1E9,1945
+Aldo Bensadoun,False,['McGill University'],1.7E9,1939
+Alec Gores,False,['Western Michigan University'],2.1E9,1953
+Alessandro Gadotti,False,['Sapienza University of Rome'],7.5E7,1969
+Alexander Mamut,False,['Moscow State University'],2.4E9,1960
+Alexander Nesis,False,['Saint Petersburg State Institute of Technology'],2.4E9,1962
+Alexander Putilov,False,"['Tyumen_Industrial_Institute', 'Bachelor of Arts']",1.1E9,1952
+Alexander Rovt,False,['Lviv Academy of Commerce'],1.2E9,1952
+Alexander Spanos,False,['University of the Pacific (United States)'],1.69E9,1923
+Alexei Mordashov,False,['Northumbria University'],1.32E10,1965
+Alfred E. Mann,False,['University of California Los Angeles'],1.5E9,1925
+Alice Walton,False,['Trinity University (Texas)'],3.25E10,1949
+Aliko Dangote,False,['Al-Azhar University'],1.8E10,1957
+Alisher Usmanov,False,['Moscow State Institute of International Relations'],1.29E10,1953
+Alistair MacLean,False,"['University of Glasgow', 'Hillhead High School', 'Inverness Royal Academy', 'Daviot_School']",73347.0,1922
+Allen Stanford,False,"['Eastern Hills High School', 'Baylor University', 'Finance', 'Bachelor of Arts']",0.0,1950
+Aloke Lohia,False,"['University of Delhi', 'Bachelor of Commerce']",1.3E9,1958
+Amar Bose,False,"['Massachusetts Institute of Technology', 'Doctor of Philosophy']",1.0E9,1929
+Antônio Ermírio de Moraes,False,['Colorado School of Mines'],3.1E9,1928
+Archie Aldis Emmerson,False,['Redding California'],3.9E9,1929
+Arif Naqvi,False,"['London School of Economics', 'Karachi Grammar School']",5.0E8,1960
+Arkady Rotenberg,False,['D. Mendeleev University of Chemical Technology of Russia'],1.26E9,1951
+Arnaud Lagardère,False,['Paris Dauphine University'],2.4E9,1961
+Arte Moreno,False,['University of Arizona'],1.81E9,1946
+Arthur Blank,False,['Babson College'],2.6E9,1942
+Austen S. Cargill II,False,"['Oregon State University', 'University of Minnesota']",3.3E9,1951
+Aydın Doğan,False,['Marmara University'],1.0E9,1936
+Azim Premji,False,['Stanford University'],1.65E10,1945
+Adam Fleming (businessman),False,['Eton College'],1.5E9,1948
+Adi Godrej,False,['MIT Sloan School of Management'],4.0E9,1942
+Adrian Swire,False,"['Eton College', 'Wellesley House School']",2.4E9,1932
+Ajay Kalsi,False,"['London School of Economics', 'University of Cambridge']",1.2E9,1960
+Ajay Piramal,False,['University of Mumbai'],1.6E9,1955
+Al-Waleed bin Talal,False,"['Syracuse University', 'Menlo College']",2.4E10,1955
+Al Pacino,False,['HB Studio'],1.35E8,1940
+Alan Casden,False,['University of Southern California'],1.2E9,1945
+Alan Howard (hedge fund manager),False,['Imperial College London'],1.5E9,1963
+Alastair Salvesen,False,['Fettes College'],1.0E9,1941
+Barbra Streisand,False,['Erasmus Hall High School'],6.5E8,1942
+Barron Hilton,False,['University of Southern California'],2.5E9,1927
+Bernard Arnault,False,['École Polytechnique'],3.61E10,1949
+Bernard Ashley (businessman),False,['Whitgift School'],6.0E7,1926
+Bernard Marcus,False,"['Rutgers University', 'Rutgers University']",3.5E9,1929
+Bernard Spitzer,False,['City College of New York'],5.0E8,1924
+Bharat Desai,False,"['University of Michigan', 'Indian Institute of Technology Bombay']",2.5E9,1953
+Bhavin Turakhia,False,"['Ruparel College', 'Arya Vidya Mandir', 'Sydenham College']",4.0E8,1979
+Bill Gross,False,"['Duke University', 'UCLA Anderson School of Management']",2.3E9,1944
+Bill Koch (businessman),False,['Culver Academies'],2.0E9,1940
+Biz Stone,False,"['University of Massachusetts', 'Northeastern University']",2.0E8,1974
+Bjørn Kjos,False,"['University of Oslo', 'Royal Norwegian Air Force Academy']",300.0,1946
+Blair Parry-Okeden,False,['La Pietra'],9.8E9,1950
+Boaz Weinstein,False,['University of Michigan'],4.5E8,1973
+Bob McNair,False,['University of South Carolina'],3.3E9,1937
+Bob Parsons,False,['University of Baltimore'],2.3E9,1950
+Bobby Murphy (businessman),False,['Stanford University'],1.8E9,1989
+Boris Muzalev,False,['Odessa National Medical University'],1.61E8,1959
+Brian Acton,False,['Stanford University'],4.6E9,1972
+Brian Chesky,False,['Rhode Island School of Design'],3.3E9,1981
+Bruce Halle,False,['Eastern Michigan University'],5.1E9,1930
+Bülent Eczacıbaşı,False,"['Massachusetts Institute of Technology', 'University of London', 'Deutsche Schule Istanbul', 'Chemical engineering']",1.7E9,1949
+Baba Kalyani,False,"['Massachusetts Institute of Technology', 'Birla Institute of Technology and Science']",2.7E9,1949
+Charles Mbire,False,"['University of Essex', 'University of Leicester']",200.0,1959
+Charles R. Schwab,False,['Stanford University'],5.3E9,1937
+Charles Sirois,False,"['Laval University', 'Université de Sherbrooke']",8.11E8,1954
+Chen Guangbiao,False,"['Peking University', 'Tsinghua University', 'Nanjing University', 'Nanjing University of Chinese Medicine', 'Master of Business Administration']","['4.0E8', '8.1E8']",1968
+Cheng Wai Keung,False,"['University of Chicago', 'Indiana University']",7.55E8,1951
+Cher Wang,False,['University of California'],8.8E9,1958
+Chey Tae-won,False,['University of Chicago'],4.2E9,1960
+Chris Evans (presenter),False,"['University Academy Warrington', 'Sir Thomas Boteler Church of England High School']",5.0E7,1966
+Chris Rokos,False,"['University of Oxford', 'Eton College']",1.0,1970
+Christoffel Wiese,False,"[""Paarl Boys' High School""]",5.3E9,1941
+Chung Mong-koo,False,"['Hanyang University', 'Hanyang University']",6.8E9,1938
+C. Dean Metropoulos,False,['Babson College'],2.4E9,1946
+Craig McCaw,False,['Stanford University'],1.84E9,1949
+Craig Newmark,False,['Case Western Reserve University'],4.0E8,1952
+Crispin Odey,False,['Christ Church Oxford'],1.1E9,1959
+Carl Bennet,False,['University of Gothenburg'],2.8E9,1951
+Carlos Bulgheroni,False,['University of Buenos Aires'],5.1E9,1945
+Carlos Slim,False,"['National Autonomous University of Mexico', 'Civil engineering']",5.3E10,1940
+Charlene de Carvalho-Heineken,False,"['Leiden University', 'Rijnlands Lyceum Foundation']",1.34E10,1954
+Charles Brandes,False,"['Bucknell University', 'San Diego State University']",1.1E9,1943
+Charles Bronfman,False,['McGill University'],2.1E9,1931
+Charles Koch,False,"['Massachusetts Institute of Technology', 'Master of Science']",4.33E10,1935
+Daryl Katz,False,"['University of Alberta', 'Juris Doctor', 'Bachelor of Arts and Science']",3.5E9,1961
+David Azrieli,False,"['Technion – Israel Institute of Technology', 'Carleton University', 'Bachelor of Science']",3.1E9,1922
+David E. Shaw,False,"['Stanford University', 'University of California San Diego']",3.6E9,1951
+David Filo,False,"['Stanford University', 'Tulane University']",2.6E9,1966
+David Geffen,False,['University of Texas at Austin'],6.5E9,1943
+David Harding (financier),False,"[""St Catharine's College Cambridge"", 'Pangbourne College']",1.0E9,1961
+David Koch,False,"['Massachusetts Institute of Technology', 'Master of Science', 'Chemical engineering', 'Master of Science']",4.33E10,1940
+David Ross (businessman),False,"['University of Nottingham', 'Uppingham School']",1.0E9,1965
+David Rubenstein,False,"['University of Chicago', 'Duke University']",2.5E9,1949
+David Tepper,False,"['Carnegie Mellon University', 'University of Pittsburgh']",1.14E10,1957
+DeShawn Snow,False,"['Michigan State University', 'Wayne Memorial High School']",1500000.0,1973
+DeVon Franklin,False,['University of Southern California'],1000000.0,1978
+Deborah Meaden,False,['City College Brighton & Hove'],4.0E7,1959
+Declan Donnelly,False,"[""St Cuthbert's High School""]",62.0,1975
+Dee Haslam,False,['University of Tennessee'],1.8E9,1955
+Denis O'Brien,False,"['Boston College', 'University College Dublin']",5.8E9,1958
+Denise Coates,False,['University of Sheffield'],3.9E9,1967
+Diego Della Valle,False,['University of Bologna'],1.6E9,1953
+Dilip Shanghvi,False,['University of Calcutta'],1.75E10,1955
+Ding Lei,False,['University of Electronic Science and Technology of China'],1.06E10,1971
+Dinu Patriciu,False,['Ion Mincu University of Architecture and Urbanism'],2.7E9,1950
+Dmitry Kamenshchik,False,['Moscow State University'],4.8E9,1968
+Dmitry Mazepin,False,['Moscow State Institute of International Relations'],1.4E9,1968
+Don Hankey,False,['University of Southern California'],2.3E9,1943
+Donald Bren,False,['University of Washington'],1.51E10,1932
+Donald Fisher,False,['University of California Berkeley'],3.3E9,1928
+Donald Sterling,False,"['California State University Los Angeles', 'Southwestern Law School']",3.1E9,1934
+Drayton McLane Jr.,False,"['Michigan State University', 'Baylor University']",2.0E9,1936
+Drew Houston,False,['Massachusetts Institute of Technology'],1.3E9,1983
+Dan Gilbert (businessman),False,"['Michigan State University', 'Wayne State University Law School']",3.9E9,1962
+Şevket Sabancı,False,"['University of Manchester Institute of Science and Technology', 'Textile manufacturing']",7.0,1936
+Edgar Bronfman Sr.,False,"['Williams College', 'McGill University']",2.6E9,1929
+Edward J. DeBartolo Jr.,False,['University of Notre Dame'],2.7E9,1946
+Edward Johnson III,False,"['Milton Academy', 'Tabor Academy (Massachusetts)']",7.5E9,1930
+Edward P. Roski,False,"['University of Southern California', 'Bachelor of Science']",4.0E9,1938
+Edward W. Stack,False,['St. John Fisher College'],1.15E9,1955
+Edwin Davies,False,['Farnworth Grammar School'],100.0,1946
+Edwin Soeryadjaya,False,['University of Southern California'],1.0,1949
+Eike Batista,False,['RWTH Aachen University'],9.0E8,1956
+Elaine Wynn,False,['George Washington University'],1.2E9,1942
+Eli Broad,False,['Michigan State University'],7.4E9,1933
+Eliodoro Matte,False,"['Booth School of Business', 'Pontifical Catholic University of Chile']",2.7E9,1945
+Elizabeth Holmes,False,['Stanford University'],3.6E9,1984
+Elizabeth Noyce,False,['Tufts University'],1.0E8,1930
+Ellis Short,False,['Missouri University of Science and Technology'],2.4E9,1960
+Elon Musk,False,"['Pretoria Boys High School', 'Waterkloof House Preparatory School']",1.07E10,1971
+Emil Hurezeanu,False,"['University of Virginia', 'Boston University', 'Babeș-Bolyai University', 'Master of Arts']",6.0,1955
+Emilio Azcárraga Jean,False,"['Universidad Iberoamericana', 'Lakefield College School']",2.0E9,1968
+Emilio Botín,False,['University of Deusto'],1.1E9,1934
+Emmanuel Besnier,False,"[""Lycée_de_l'Immaculée-Conception""]",6.7E9,1970
+Enrique K. Razon,False,"['De La Salle University', 'Business administration']",5.5E9,1960
+Eric Lefkofsky,False,['University of Michigan'],1.7E9,1969
+Eric R. George,False,"['Michigan State University', 'Marshall University']",2.25E8,1963
+Eric Trump,False,"['Georgetown University', 'The Hill School', 'Trinity School (New York City)']",1.5E8,1984
+Erick Thohir,False,"['Glendale Community College (California)', 'National University (California)']",9.6E8,1970
+Erol Sabancı,False,['Harris Manchester College Oxford'],1.3E9,1938
+Eugene Kaspersky,False,"['Moscow State University', 'Institute of Cryptography Telecommunications and Computer Science']",1.04E9,1965
+Eugene Shvidler,False,"['Fordham University', 'Gubkin Russian State University of Oil and Gas']",1.2E9,1964
+Evan Spiegel,False,['Stanford University'],2.1E9,1990
+Evelyn Robert de Rothschild,False,"['Trinity College Cambridge', 'Harrow School']",2.0E10,1931
+Francois-Xavier Souvay,False,['HEC Montréal'],1.15E8,1970
+Frank Fertitta III,False,['University of Southern California'],1.4E9,1962
+Frank Rainieri,False,"[""Saint Joseph's University""]",1.0E9,1944
+François-Henri Pinault,False,['HEC Paris'],1.38E10,1962
+Fred DeLuca,False,['University of Bridgeport'],3.5E9,1947
+Fredrik Lundberg,False,['Stockholm School of Economics'],1.5E9,1951
+Farhad Moshiri (businessman),False,['University College London'],1.84E9,1955
+Fazle Hasan Abed,False,"['University of Glasgow', 'Dhaka College', 'Naval architecture']",2.7E9,1936
+Florentino Pérez,False,['Technical University of Madrid'],2.0E9,1947
+Gautam Singhania,False,['Cathedral and John Connon School'],1.4E9,1965
+Geoffrey Edelsten,False,"['University of Melbourne', 'Mount Scopus Memorial College', 'Princes Hill Secondary College']",6.3E7,1943
+George R. Roberts,False,"['University of California Hastings College of the Law', 'Claremont McKenna College']",5.1E9,1944
+George Soros,False,['London School of Economics'],2.45E10,1930
+Gert Verhulst,False,['Autodidacticism'],1.12E8,1968
+Gigi Pritzker,False,['Stanford University'],1.9E9,1962
+Gina Rinehart,False,"['University of Sydney', ""St Hilda's Anglican School for Girls""]",9.8E9,1954
+Galen Weston,False,['University of Western Ontario'],9.8E9,1940
+Glenn Beck,False,['Sehome High School'],9.0E7,1964
+Glenn Dubin,False,['Stony Brook University'],2.0E9,1957
+Graeme Hart,False,"['University of Otago', 'Master of Business Administration', 'Mount Roskill Grammar School', 'New Zealand', 'Auckland']",8.1E9,1955
+Greg Coffey,False,['Macquarie University'],7.43E8,1971
+Guo Guangchang,False,['Fudan University'],7.3E9,1967
+Gustavo Cisneros,False,"['Babson College', 'Suffield Academy']",4.0E9,1945
+Gwen Stefani,False,['California State University Fullerton'],8.0E7,1969
+Gérard Louis-Dreyfus,False,"['Duke University', 'Juris Doctor']",3.4E9,1932
+Hiroshi Yamauchi,False,['Waseda University'],2.5E9,1927
+Howard Schultz,False,['Northern Michigan University'],2.9E9,1953
+Hans Rausing,False,['Lund University'],1.25E10,1926
+Harold Simmons,False,['University of Texas at Austin'],1.0E10,1931
+Harry Sargeant III,False,['Florida State University'],1.0E9,1957
+Harvey McGrath,False,"[""St Catharine's College Cambridge"", 'Methodist College Belfast']",1.0E8,2014
+Heather Mills,False,"['Washington Tyne and Wear', 'Chestnut Grove Academy']",2.43E7,1968
+Heinz Bauer (publisher),False,['University of Hamburg'],1.9E9,1939
+Henadiy Boholyubov,False,['Prydniprovska State Academy of Civil Engineering and Architecture'],1.8E9,1962
+Henry Nicholas,False,"['University of California Los Angeles', 'Electrical engineering']",1.7E9,1959
+Henry Samueli,False,['University of California Los Angeles'],2.4E9,1954
+Henry Sy,False,['Far Eastern University'],1.57E10,1924
+Herbert Allen Jr.,False,['Williams College'],1.5E9,1940
+Herbert Kohler Jr.,False,['Choate Rosemary Hall'],7.4E9,1939
+Herbert Simon (real estate),False,['City College of New York'],2.9E9,1934
+Hamilton E. James,False,['Choate Rosemary Hall'],1.84E9,1951
+Ian Davis (businessman),False,"['University of Oxford', 'Balliol College Oxford']",50.0,1951
+Ian Livingstone (property developer),False,"['City University London', ""St Paul's School London""]",2.6E9,1962
+Ian Wood (businessman),False,"['University of Aberdeen', ""Robert Gordon's College""]",2.15E9,1942
+Idan Ofer,False,"['London Business School', 'University of Haifa']",4.1E9,1955
+Igor Olenicoff,False,['University of Southern California'],3.6E9,1943
+Igor Zyuzin,False,['Tula_Polytechnic_Institute'],1.8E9,1960
+Ioan Niculae,False,['Ștefan Gheorghiu Academy'],1.2E9,1954
+Ira Rennert,False,"['Brooklyn College', 'New York University']",6.1E9,1934
+Isabel dos Santos,False,"[""King's College London""]",3.4E9,1973
+Iskander Makhmudov,False,['Tashkent University of Information Technologies'],6.5E9,1963
+Israel Englander,False,['New York University'],4.8E9,1948
+Ivica Todorić,False,['University of Zagreb'],5.73E8,1951
+Jim Davis (business),False,['Middlebury College'],5.2E9,1943
+Jim Irsay,False,['Southern Methodist University'],2.3E9,1959
+Jim Justice,False,['Marshall University'],1.69E9,1951
+Jim McColl,False,"['University of Strathclyde', 'Stonelaw High School']","['1.0E9', '1.4E9']",1951
+Jim Ratcliffe,False,"['University of Birmingham', 'London Business School', 'Beverley Grammar School']",3.2E9,1952
+Jim Walton,False,['University of Arkansas'],3.38E10,1948
+Jimmy Haslam,False,['University of Tennessee'],3.0E9,1954
+Joan Tisch,False,['University of Michigan'],2.8E9,1926
+Joe Craft,False,['University of Kentucky'],1.4E9,1950
+Joe Jamail,False,['University of Texas at Austin'],1.5E9,1925
+Joe Mansueto,False,['Munster High School'],2.2E9,1956
+Joe Ricketts,False,['Creighton University'],1.0E9,1941
+Johann Rupert,False,['Stellenbosch University'],7.9E9,1950
+John Abele,False,['Amherst College'],6.03E8,1937
+John Arrillaga,False,['Stanford University'],2.3E9,1936
+John Caudwell,False,['Berry Hill High School and Sports College'],2.6E9,1952
+John Chuang,False,['University of Liverpool'],9.65E8,1948
+John Coates (businessman),False,['University of Bristol'],1.94E9,1970
+James Packer,False,"['Sydney', 'Cranbrook School Sydney']",3.5E9,1967
+James Pallotta,False,"['University of Massachusetts Amherst', 'Northeastern University']",1.0E9,1958
+James R. Leininger,False,"['Indiana University', 'Doctor of Medicine']",1.3E9,1944
+Jan Koum,False,['San Jose State University'],8.6E9,1976
+Jane Lauder,False,['Stanford University'],1.4E9,1973
+Jean Claude Gandur,False,"['University of Lausanne', 'Pantheon-Sorbonne University']",2.3E9,1949
+Jean Coutu (pharmacist),False,['Université de Montréal'],2.3E9,1927
+Jeffrey Kang,False,['South China University of Technology'],1.2E9,1970
+Jeffrey Katzenberg,False,['Ethical Culture Fieldston School'],9.57E8,1950
+Jeffrey Lorberbaum,False,['Bachelor of Arts'],1.7E9,1954
+Jeffrey Lurie,False,"['Boston University', 'Brandeis University', 'Clark University']",1.64E9,1951
+Jenni Rivera,False,"['California State University', 'Long Beach City College']",3.0E8,1969
+Jennifer Pritzker,False,['Loyola University Chicago'],1.7E9,1950
+Jeremy Jacobs,False,['University at Buffalo'],3.6E9,1940
+Jerome Booth,False,"['University of Oxford', 'University of Bristol']",1.12E8,1963
+Jerry Bruckheimer,False,['University of Arizona'],8.5E8,1943
+Jerry Reinsdorf,False,"['George Washington University', 'Northwestern University School of Law']",1.2E9,1936
+John Gokongwei,False,['De La Salle University'],5.0E9,1926
+John Griffin (businessman),False,['Finchley Catholic High School'],1.4E8,1942
+John Hagee,False,"['University of North Texas', 'Trinity University (Texas)', 'Bachelor of Science']",5000000.0,1940
+John Hugh MacMillan,False,"['University of Minnesota', 'Blake School (Minneapolis)', 'Berkshire School']",1.7E9,1928
+John Mackey (businessman),False,['University of Texas at Austin'],1.0E8,1953
+John Menard Jr.,False,['University of Wisconsin–Eau Claire'],9.1E9,1940
+John Morgridge,False,"['Stanford University', 'University of Wisconsin–Madison']",1.0E9,1933
+John Pritzker,False,['Menlo College'],2.3E9,1953
+John Sainsbury Baron Sainsbury of Preston Candover,False,['Worcester College Oxford'],1.3E9,1927
+John Tu,False,['Technische Universität Darmstadt'],4.6E9,1940
+Johnnie Boden,False,"['Oriel College Oxford', 'Eton College', 'Hawtreys']",3.0E8,1961
+Jonathan Harmsworth 4th Viscount Rothermere,False,"['Duke University', 'Gordonstoun']",1.37E9,1967
+Jonathan Ive,False,['Northumbria University'],1.3E8,1967
+Jonathan Manzi,False,['Stanford University'],1000000.0,1991
+Jonathan Ruffer,False,"['Marlborough College', 'Sidney Sussex College Cambridge']",3.8E8,1951
+Jorge Gerdau Johannpeter,False,['Federal University of Rio Grande do Sul'],9.26E8,1936
+Joseph Lau,False,['University of Windsor'],1.31E10,1951
+Joseph Parnes,False,['University of Louisiana at Lafayette'],1.4E8,1946
+Josh James,False,['Brigham Young University'],1.0E8,1973
+José Miguel Bonetti,False,"['Juris Doctor', 'Bachelor of Economics']",1.0E9,1938
+Judith Faulkner,False,"['Dickinson College', 'University of Wisconsin–Madison']",2.6E9,1943
+Julian Robertson,False,['University of North Carolina at Chapel Hill'],3.4E9,1932
+J.B. Pritzker,False,"['Duke University', 'Northwestern University School of Law']",3.4E9,1965
+J. Christopher Burch,False,['Ithaca College'],1.0E9,1953
+J. Darius Bikoff,False,['Colgate University'],3.25E8,1961
+J. Michael Pearson,False,"['Duke University', 'University of Virginia']",1.5E9,1960
+Jack C. Taylor,False,['Washington University in St. Louis'],8.6E9,1922
+Jack Davis (industrialist),False,['University at Buffalo'],18.2,1933
+Jack Dellal,False,"['Manchester', 'Heaton Moor']",4.3E9,1923
+Jack Ma,False,"['Cheung Kong Graduate School of Business', 'Hangzhou Normal University']",2.36E10,1964
+Jack Welch,False,"['University of Massachusetts Amherst', 'University of Illinois at Urbana–Champaign', 'Chemical engineering', 'Doctor of Philosophy', 'Bachelor of Science', 'Master of Science']",7.5E8,1935
+Jacqueline Mars,False,"['Bryn Mawr College', ""Miss Hall's School""]",2.36E10,1939
+James C. Kennedy,False,['University of Denver'],9.8E9,1948
+James Cameron,False,['Brea Olinda High School'],1.79E9,1954
+James Cayne,False,['Purdue University'],6.1E7,1934
+James Dyson,False,"['Royal College of Art', 'Byam Shaw School of Art', ""Gresham's School""]",4.9E9,1947
+James E. Thompson,False,['San Jose State University'],1.0E9,1940
+James Goodnight,False,['North Carolina State University'],8.1E9,1943
+James Harris Simons,False,"['Massachusetts Institute of Technology', 'University of California Berkeley', 'Doctor of Philosophy', 'Bachelor of Science']",1.55E10,1938
+Karen Pritzker,False,['Northwestern University'],4.3E9,1958
+Karl-Johan Persson,False,['European Business School London'],3.0E9,1975
+Kavita Oberoi,False,['University of Huddersfield'],1.0E7,1970
+Kelcy Warren,False,['University of Texas at Arlington'],1.74E9,1955
+Ken Morrison,False,['Bradford Grammar School'],1.0E9,1931
+Kenneth Feld,False,['Boston University'],1.8E9,1948
+Kenneth Fisher,False,['Humboldt State University'],2.7E9,1950
+Kenneth Langone,False,"['Bucknell University', 'New York University Stern School of Business']",2.7E9,1935
+Kevin Plank,False,['University of Maryland College Park'],3.9E9,1972
+Kevin Systrom,False,['Stanford University'],4.0E8,1983
+Kimbal Musk,False,"[""Queen's University""]",2.5E9,1972
+Kith Meng,False,['Australian National University'],6.0E8,1968
+Klaus Tschira,False,['Karlsruhe Institute of Technology'],6.7E9,1940
+Konstantin Kagalovsky,False,['Financial University under the Government of the Russian Federation'],1.2E9,1957
+Kumar Mangalam Birla,False,"['University of Mumbai', 'London Business School', 'Institute of Chartered Accountants of India']",8.3E9,1967
+Kushal Pal Singh,False,['Meerut College'],2.5E9,1931
+Luis Carlos Sarmiento,False,"['National University of Colombia', 'Civil engineer']",1.25E10,1933
+Lukas Walton,False,"['Colorado College', 'Journeys School']",11.0,1985
+Lady Gaga,False,['New York University'],2.75E8,1986
+Lakshmi Mittal,False,"[""St. Xavier's College Kolkata"", 'Bachelor of Commerce']",9.8E9,1950
+Larry Ellison,False,"['University of Chicago', 'University of Illinois at Urbana–Champaign']",4.38E10,1944
+Larry Page,False,"['Stanford University', 'University of Michigan']",3.62E10,1973
+Lauren Conrad,False,"['Fashion Institute of Design & Merchandising', 'Laguna Beach High School']",2.5E7,1986
+Lee Kun-hee,False,"['George Washington University', 'Waseda University']",1.08E10,1942
+Lei Jun,False,['Wuhan University'],1.35E10,1969
+Leon Levy,False,['City College of New York'],1.0E9,1925
+Leonard N. Stern,False,['New York University'],5.4E9,1938
+Leonid Mikhelson,False,['Kuibyshev_Civil_Engineering_Institute'],1.56E10,1955
+Les Wexner,False,['Ohio State University'],7.2E9,1937
+Leslie Alexander (businessman),False,"['Thomas Jefferson School of Law', 'New York University']",1.54E9,1944
+Li Ka-shing,False,['High school dropouts'],3.01E10,1928
+Li Yong (television host),False,['Communication University of China'],5.0E8,1968
+Li Zhongchu,False,"['Wuhan University', 'Bachelor of Science']",4.0E9,1964
+Linda McMahon,False,['East Carolina University'],8.55E8,1948
+Liu Qiangdong,False,['Renmin University of China'],8.9E9,1974
+Lorenzo Fertitta,False,"['University of San Diego', 'New York University Stern School of Business']",1.6E9,1968
+Lorenzo Mendoza,False,"['MIT Sloan School of Management', 'Fordham University']",2.7E9,1965
+Lu Guanqiu,False,['Zhejiang University'],6.5E9,1945
+Lucio Tan,False,"['Chiang Kai Shek College', 'Far Eastern University']",4.2E9,1934
+Ömer Sabancı,False,"['University of Delaware', 'Economics']",3.0E9,1959
+M G George Muthoot,False,['Manipal Institute of Technology'],1.14E9,1949
+Ma Huateng,False,['Shenzhen University'],1.88E10,1971
+Madonna (entertainer),False,['University of Michigan'],5.2E8,1958
+Manuel Moroun,False,['University of Notre Dame'],2.0E9,1927
+Marc Andreessen,False,['University of Illinois at Urbana–Champaign'],6.0E8,1971
+Marc Benioff,False,['University of Southern California'],3.8E9,1964
+Marc Lasry,False,"['Clark University', 'New York Law School']",1.9E9,1961
+Matthew Bucksbaum,False,['University of Iowa'],1.2E9,1926
+Matthew Freud,False,['Westminster School'],1.7E7,1963
+Matthew K. McCauley,False,['Brigham Young University'],8787661.0,1973
+Matthew McConaughey,False,['University of Texas at Austin'],7.5E7,1969
+Maurice Lévy (Publicis),False,['New Jersey City University'],1.73E8,1942
+Max Levchin,False,['University of Illinois at Urbana–Champaign'],300.0,1975
+Mehmet Emin Karamehmet,False,"['Dover College', 'Robert College']",1.15,1944
+Mel B,False,['Leeds West Academy'],3.3E7,1975
+Mian Muhammad Mansha,False,['University of the Punjab'],4.0E9,1952
+Michael Ashcroft,False,"['Anglia Ruskin University', 'Royal Grammar School High Wycombe', 'Norwich School (independent school)']",8.65E8,1946
+Michael Dell,False,['University of Texas at Austin'],2.01E10,1965
+Michael Eisner,False,['Denison University'],1.0E9,1942
+Michael F. Price,False,['University of Oklahoma'],1.25E9,1951
+Michael Flatley,False,['Brother Rice High School (Chicago)'],"['2.25E8', '1.91E8']",1958
+Michael Heisley,False,['Georgetown University'],1.6E9,1937
+Michael Jaharis,False,"['Carroll University', 'DePaul University College of Law']",2.2E9,1928
+Michael Kadoorie,False,['Institut Le Rosey'],5.7E9,1941
+Michael Klein (businessman),False,['Fundação Getúlio Vargas'],1.3E9,1951
+Michael Kors,False,"['Fashion Institute of Technology', 'New York City']",1.0E9,1959
+Michael Platt (financier),False,['London School of Economics'],"['1.5E9', '3.5E9']",1968
+Michael Sherwood (banker),False,['Westminster School'],1.85E8,1965
+Michael Uren,False,['Sherborne School'],1.7E8,1923
+Mike Adenuga,False,"['Northwestern Oklahoma State University', 'Pace University', 'Ibadan Grammar School']",3.2E9,1953
+Margarita Louis-Dreyfus,False,['Moscow State University'],8.4E9,1962
+Marissa Mayer,False,['Stanford University'],3.8E8,1975
+Mark Coombs,False,"[""St John's College Cambridge"", 'Dulwich College']",1.8E9,1960
+Mark Cuban,False,"['University of Pittsburgh', 'Kelley School of Business']",3.2E9,1958
+Martha Firestone Ford,False,"['Vassar College', ""Bachelor's degree""]",1.36E9,1925
+Mary Perkins,False,"['Cardiff University', 'Fairfield Grammar School']",1.45E9,1944
+María Asunción Aramburuzabala,False,['Instituto Tecnológico Autónomo de México'],5.2E9,1963
+Masayoshi Son,False,"['University of California Berkeley', 'Holy Names University', 'Jefferson Union High School District']",1.52E10,1957
+Mike Krieger,False,['Stanford University'],1.0E8,1986
+Mike Lazaridis,False,['University of Waterloo'],7.0E8,1961
+Mikee Romero,False,['De La Salle University'],3.75E8,1971
+Mikhael Mirilashvili,False,['Saint Petersburg State University'],3.0E9,1960
+Mikhail Gutseriyev,False,"['Plekhanov Russian University of Economics', 'Gubkin Russian State University of Oil and Gas']",2.4E9,1958
+Mikhail Khodorkovsky,False,['D. Mendeleev University of Chemical Technology of Russia'],100.0,1963
+Mikhail Prokhorov,False,['Financial University under the Government of the Russian Federation'],7.8E9,1965
+Min Kao,False,"['National Taiwan University', 'University of Tennessee']",2.6E9,1949
+Minoru Mori,False,['University of Tokyo'],1.4E9,1934
+Miroslav Mišković,False,"['University of Belgrade', 'Finance']",5.073E8,1945
+Mitchell Rales,False,['Miami University'],4.0E9,1956
+Mo Ibrahim,False,"['University of Birmingham', 'University of Bradford', 'Alexandria University']",1.1E9,1946
+Moosa Bin Shamsher,False,['California State University'],1.2E10,1945
+Mukesh Ambani,False,"['Stanford University', 'Forest School Walthamstow', 'Institute of Chemical Technology']",2.01E10,1957
+Munib al-Masri,False,"['University of Texas at Austin', 'An-Najah National University']",5.0E9,1934
+Naguib Sawiris,False,['ETH Zurich'],3.1E9,1954
+Nancy Walton Laurie,False,['University of Memphis'],4.1E9,1951
+Nassef Sawiris,False,['Deutsche Schule der Borromäerinnen Kairo'],5.9E9,1961
+Nathan Kirsh,False,"['University of the Witwatersrand', 'Potchefstroom High School for Boys']",3.7E9,1932
+Naveen Selvadurai,False,"[""King's College London"", 'Worcester Polytechnic Institute']",8.0E7,1982
+Neil Bluhm,False,"['Northwestern University', 'University of Illinois at Urbana–Champaign']",3.0E9,1938
+Neil Kadisha,False,['University of Manchester'],1.76E9,1955
+Nichola Pease,False,['University of Exeter'],1.1E9,1961
+Nicholas Schorsch,False,['Drexel University'],1.6E9,1961
+Nick Leslau,False,['Mill Hill School'],2.0E8,1959
+Nick Woodman,False,['University of California San Diego'],7.7E8,1975
+Nicolas Berggruen,False,['New York University'],2.0E9,1961
+Nigella Lawson,False,"['University of Oxford', 'Lady Margaret Hall Oxford', 'Middle Ages', 'Modern language', 'Master of Arts (Oxbridge and Dublin)']",15.0,1960
+Nihat Özdemir,False,['Gazi University'],1.1E9,1950
+Nikos Pateras,False,['City University London'],1.1E9,1963
+N. Murray Edwards,False,"['University of Saskatchewan', 'University of Toronto']",2.2E9,1959
+N. R. Narayana Murthy,False,"['Indian Institute of Technology Kanpur', 'University of Mysore']",1.8E9,1946
+Nadhmi Auchi,False,"['Al-Mustansiriya University', 'Baghdad College']",1.5E9,1937
+Oleg Deripaska,False,"['Moscow State University', 'Plekhanov Russian University of Economics']",2.5E9,1968
+Omid Kordestani,False,"['San Jose State University', 'Stanford Graduate School of Business']",5.0E8,1963
+Oprah Winfrey,False,['Tennessee State University'],3.1E9,1954
+Oscar Wyatt,False,"['Texas A&M University', 'Mechanical engineering']",1.0E8,1924
+Otto Happel,False,['RWTH Aachen University'],2.6E9,1948
+Otumfuo Nana Osei Tutu II,False,['University of Professional Studies'],"['1.6', '4.5E12']",1950
+Owen Oyston,False,"[""St Mary's Catholic Academy""]",100.0,1934
+Patrick Bitature,False,"['Institute of Chartered Secretaries and Administrators', 'Namasagali College', 'Nyakasura School']",1.0E8,1960
+Patrick Drahi,False,['École Polytechnique'],7.9E9,1963
+Paul Allen,False,"['Washington State University', 'Lakeside School (Seattle)']",1.76E10,1953
+Paul Desmarais,False,['University of Ottawa'],4.5E9,1927
+Paul Tudor Jones,False,['University of Virginia'],4.7E9,1954
+Paul Walker,False,['Village Christian Schools'],2.5E7,1973
+Pavel Durov,False,['Saint Petersburg State University'],2.6E8,1984
+Pavel Tykač,False,['Czech Technical University in Prague'],1.03E9,1964
+Peter Hargreaves,False,['Clitheroe Royal Grammar School'],2.39E9,1946
+Petr Kellner,False,['University of Economics Prague'],1.08E10,1964
+Phaedra Parks,False,"['Wesleyan College', 'Juris Doctor', 'Bachelor of Arts', 'University of Georgia School of Law', 'Clarke Central High School']",2000000.0,1971
+Pankaj Patel,False,['Gujarat University'],4.1E9,1951
+Pansy Ho,False,['Santa Clara University'],6.4E9,1962
+Patrice Motsepe,False,"['University of the Witwatersrand', 'University of Swaziland']",2.9E9,1962
+Phil Knight,False,"['Stanford University', 'University of Oregon']",2.81E10,1938
+Philip Anschutz,False,['University of Kansas'],1.01E10,1939
+Poju Zabludowicz,False,['Tel Aviv University'],1.5E9,1953
+Prem Watsa,False,"['University of Western Ontario', 'Indian Institute of Technology Madras']",1.0E9,1950
+Pyotr Aven,False,['Moscow State University'],6.4E9,1955
+Qasim Ibrahim,False,"['Open University Malaysia', 'Honorary_Degree_Doctor_of_Entrepreneurship']",6.0E8,1951
+Robert Englund,False,"['Royal Academy of Dramatic Art', 'California State University Northridge']",1.4E7,1947
+Robert Friedland,False,['Reed College'],1.8E9,1950
+Robert Holding,False,['University of Utah'],2.6E9,1926
+Robert Miller (businessman),False,['Rider University'],2.5E9,1946
+Robert Pera,False,['University of California San Diego'],2.1E9,1978
+Robert Sangster,False,['Repton School'],1.1E8,1936
+Roberto Ongpin,False,['Ateneo de Manila University'],6.8E8,1938
+Robin Li,False,"['Peking University', 'University at Buffalo']",1.43E10,1968
+Rocky Wirtz,False,"['Northwestern University', 'North Shore Country Day School']",4.2E9,1952
+Ronald S. Baron,False,"['Bucknell University', 'George Washington University']",2.0E9,1943
+Ross Perot,False,"['United States Naval Academy', 'Texarkana College']",4.1E9,1930
+Ross Perot Jr.,False,['Vanderbilt University'],1.6E9,1958
+Roustam Tariko,False,"['INSEAD', 'Moscow State University of Railway Engineering']",1.9E9,1962
+Roy E. Disney,False,"['Pomona College', 'Buckley School (California)']",1.2E9,1930
+Rupert Hambro,False,['Eton College'],1.5E8,1943
+Rupert Johnson Jr.,False,['Washington and Lee University'],6.0E9,1941
+Rupert Murdoch,False,['Worcester College Oxford'],1.17E10,1931
+Russell Weiner,False,['Redwood High School (Larkspur California)'],2.1E9,1970
+Ramesh Chandra,False,"['University of Southampton', 'Indian Institute of Technology Kharagpur']",1.0E9,1941
+Randa Williams,False,"['Rice University', 'University of Houston']",4.1E9,1962
+Randal J. Kirk,False,"['Radford University', 'University of Virginia School of Law']",3.8E9,1954
+Ratul Puri,False,['Carnegie Mellon University'],1.2E9,1972
+Ray Lee Hunt,False,['Southern Methodist University'],5.3E9,1943
+Reed Hastings,False,"['Stanford University', 'Bowdoin College', 'Computer science']",1.72E9,1960
+Reid Hoffman,False,"['Stanford University', 'University of Oxford']",4.6E9,1967
+Ricardo Salinas Pliego,False,"['Tulane University', 'Monterrey Institute of Technology and Higher Education']",8.0E9,1955
+Richard Benjamin Harrison,False,['Lexington Senior High School (North Carolina)'],8000000.0,1941
+Richard Livingstone (businessman),False,"[""St Paul's School London""]",2.6E9,1964
+Richard Rainwater,False,"['University of Texas at Austin', 'Stanford Graduate School of Business']",2.8E9,1944
+Richard S. Fuld Jr.,False,"['University of Colorado Boulder', 'New York University', 'Master of Business Administration']",1.0E8,1946
+Riley P. Bechtel,False,"['Stanford University', 'University of California Davis']",3.9E9,1952
+Rajan Raheja,False,['University of Mumbai'],1.99E9,1954
+Rajen A. Kilachand,False,['Boston University'],9.0E8,1932
+Rakesh Jhunjhunwala,False,"['University of Mumbai', 'Institute of Chartered Accountants of India', 'Chartered accountant']",1.9E9,1960
+Ralph Lauren,False,['Baruch College'],5.6E9,1939
+Sara Blakely,False,['Florida State University'],1.0E9,1971
+Sean Parker,False,"['Oakton High School', 'Chantilly High School']",2.5E9,1979
+Semahat Sevim Arsel,False,['Robert College'],2.4E9,1928
+Serge Pun,False,['Basic Education High School No. 6 Botataung'],5.0E8,1953
+Sergei Viktorovich Popov,False,['Ural State Technical University'],4.6E9,1971
+Sergey Brin,False,"['Stanford University', 'University of Maryland College Park', 'Doctor of Philosophy']",3.54E10,1973
+Sergio Mantegazza,False,"['Gademann_Business_School', 'Istituto Elvetico Salesiani Don Bosco']",4.4E9,1927
+Seymour Schulich,False,['McGill University'],1.75E9,1940
+Shahid Khan,False,"['University of Illinois at Urbana–Champaign', 'Mechanical engineering']",6.4E9,1950
+Shane Smith (journalist),False,"['Carleton University', 'Lisgar Collegiate Institute']",1.27E9,1969
+Shawn Fanning,False,['Northeastern University'],7500000.0,1980
+Sheila Johnson,False,"['University of Illinois at Urbana–Champaign', 'Proviso East High School']",1.0E9,1949
+Sheldon Adelson,False,['City College of New York'],2.58E10,1933
+Shelim Hussain,False,"['Coleg Glan Hafren', 'List of places in Cardiff']",8.0E7,1973
+Shi Yuzhu,False,"['Zhejiang University', 'Shenzhen University']",4.0E9,1962
+Shi Zhengrong,False,"['University of New South Wales', 'Changchun University of Science and Technology']",2.9E9,1963
+Shoichiro Toyoda,False,"['Tohoku University', 'Nagoya University']",4.0E8,1925
+Sidney Kimmel,False,['Temple University'],1.35E9,1928
+Simon Cowell,False,['Dover College'],3.25E8,1959
+Simon Keswick,False,"['Trinity College Cambridge', 'Eton College']",1.75E9,1942
+Simon Nixon,False,"['University of Nottingham', 'St Richard Gwyn Catholic High School Flint']",9.45E8,1967
+Sokratis Kokkalis,False,['Humboldt University of Berlin'],1.2E9,1939
+Solomon Lew,False,['Mount Scopus Memorial College'],1.2E9,1945
+Sri Prakash Lohia,False,"['University of Delhi', 'Bachelor of Commerce']",4.2E9,1952
+Stanley Druckenmiller,False,['Bowdoin College'],4.4E9,1953
+Stanley Fink Baron Fink,False,"['Trinity Hall Cambridge', 'Manchester Grammar School']",1.8E8,1957
+Stefan Persson (magnate),False,['Stockholm University'],2.41E10,1947
+Stefano Gabbana,False,['Istituto Superiore per le Industrie Artistiche'],1.56E9,1962
+Stefano Pessina,False,['Polytechnic University of Milan'],1.38E10,1941
+Stelios Haji-Ioannou,False,"['London School of Economics', 'Cass Business School']",1.76E9,1967
+Stephanie McMahon,False,"['Boston University', 'Greenwich Country Day School']",5.4E7,1976
+Stephen Hillenburg,False,"['California Institute of the Arts', 'Humboldt State University', 'Savanna High School']",9.0E7,1961
+Stephen M. Ross,False,"['University of Michigan', 'Wayne State University', 'New York University']",6.7E9,1940
+Steve Bisciotti,False,['Salisbury University'],3.3E9,1960
+Steve Case,False,['Williams College'],1.37E9,1958
+Steve Chen,False,['University of Illinois at Urbana–Champaign'],3.0E8,1978
+Steve Ells,False,"['University of Colorado Boulder', 'The Culinary Institute of America']",4.0E8,1966
+Steve Kirsch,False,['Massachusetts Institute of Technology'],2.3E8,1956
+Steve Wozniak,False,"['University of California Berkeley', 'De Anza College']",1.0E8,1950
+Steven F. Udvar-Házy,False,['University of California Los Angeles'],3.7E9,1946
+Steven M. Rales,False,"['DePauw University', 'Juris Doctor']",3.8E9,1951
+Steven R. Karp,False,['Boston University'],1.0E9,1941
+Steven Spielberg,False,"['California State University Long Beach', 'Saratoga High School (California)']",3.6E9,1946
+S. D. Shibulal,False,"['Boston University', 'University of Kerala', 'Master of Science']",1.08E9,1955
+S. Truett Cathy,False,['Henry W. Grady High School'],4.2E9,1921
+Sachin Bansal,False,['Indian Institute of Technology Delhi'],1.3E9,1981
+Sadruddin Hashwani,False,['University of Karachi'],1.1E9,1940
+Sam Goi,False,['Dunman High School'],2.1E9,1949
+Sam Zell,False,"['Juris Doctor', 'Bachelor of Arts']",4.8E9,1941
+Sameer Gehlaut,False,['Indian Institute of Technology Delhi'],1.23E9,1974
+Sandro Veronesi (Entrepreneur),False,['University of Verona'],1.8E9,1959
+Sanela Diana Jenkins,False,"['University of London', 'University of Sarajevo']",1.5E8,1973
+Sanford Diller,False,"['University of California Berkeley', 'University of California Hastings College of the Law']",1.3E9,1927
+Suat Günsel,False,"['Middle East Technical University', 'Educational psychology']",1.1E9,1952
+Sudhir Ruparelia,False,['A-level'],8.0E8,1956
+Suleyman Kerimov,False,['english.html'],3.7E9,1966
+Sultan bin Mohammed bin Saud Al Kabeer,False,['King Saud University'],3.5E9,1954
+Sunil Kant Munjal,False,['The Doon School'],100000.0,1960
+Sunil Mittal,False,['Panjab University Chandigarh'],7.3E9,1957
+Susanne Klatten,False,['International Institute for Management Development'],1.5E10,1962
+Swraj Paul Baron Paul,False,"['Massachusetts Institute of Technology', 'Forman Christian College']",2.0E9,1931
+Sylvester Stallone,False,['University of Miami'],4.0E8,1946
+Theodore Angelopoulos,False,['University of Zurich'],6.3E8,1943
+Thomas F. Frist Jr.,False,"['Washington University in St. Louis', 'Vanderbilt University']",8.1E9,1938
+Thomas Kwok,False,"['Imperial College London', 'London Business School']",1.63E10,1951
+Thomas Peterffy,False,['Clark University'],1.09E10,1944
+Thomas Pritzker,False,['Booth School of Business'],2.9E9,1950
+Thomas Secunda,False,['Binghamton University'],1.9E9,1954
+Thomas Siebel,False,"['University of Illinois at Urbana–Champaign', 'Master of Business Administration', 'Bachelor of Arts']",2.0E9,1952
+Tim Cook,False,"['Duke University', 'Auburn University', 'Master of Business Administration', 'Bachelor of Science']",7.85E8,1960
+Timothy Boyle,False,['University of Oregon'],1.71E9,1949
+Timur Kulibayev,False,['Moscow State University'],2.1E9,1966
+Tom Benson,False,"['Loyola University New Orleans', 'Brother Martin High School']",2.2E9,1927
+Tom Golisano,False,['Alfred State College'],1.9E9,1941
+Tom Gores,False,['Michigan State University'],3.3E9,1964
+Tom Hanks,False,"['California State University Sacramento', 'Chabot College']",3.9E8,1956
+Tom Love,False,"[""St. Gregory's University""]",3.9E9,1937
+Tony Fernandes,False,"['London School of Economics', 'Epsom College', 'Alice Smith School']",2.3E8,1964
+Tony Tan (entrepreneur),False,"['University of Santo Tomas', 'Chiang Kai Shek College']",2.6E9,1953
+Travis Barker,False,['Fontana High School'],8.5E7,1975
+Trevor Rees-Jones,False,['Highland Park High School (University Park Texas)'],5.2E9,1951
+Tuncay Özilhan,False,"['Long Island University', 'Istanbul University']",1.6E9,1947
+Ty Warner,False,['Kalamazoo College'],2.5E9,1944
+T. Boone Pickens,False,['Oklahoma State University–Stillwater'],1.0E9,1928
+T. Denny Sanford,False,['University of Minnesota'],1.4E9,1935
+T. S. Kalyanaraman,False,['Sree Kerala Varma College'],1.0E9,1951
+Taizo Son,False,['University of Tokyo'],1.2E9,1972
+Ted Leonsis,False,['Georgetown University'],1.0E9,1957
+Ted Lerner,False,"['George Washington University', 'George Washington University Law School']",5.2E9,1925
+Teresa Heinz,False,"['University of the Witwatersrand', 'University of Geneva']",1.0E9,1938
+Vagit Alekperov,False,['Azerbaijan State University of Oil and Industry'],1.14E10,1950
+Vardis Vardinogiannis,False,['Hellenic Naval Academy'],7.112E8,1933
+Viatcheslav Moshe Kantor,False,['Moscow Aviation Institute'],2.3E9,1953
+Victor Muller,False,['Leiden University'],7500000.0,1959
+Vikram Lal,False,['The Doon School'],3.9E9,1942
+Vince Gilligan,False,['Tisch School of the Arts'],1.5E7,1967
+Vincent Bolloré,False,['Lycée Janson de Sailly'],7.3E9,1952
+Vincent Tchenguiz,False,"['Boston University', 'New York University', 'McGill University']",8.5E8,1956
+Vincent Viola,False,"['United States Military Academy', 'New York Law School']",2.2E9,1956
+Vinod Khosla,False,"['Carnegie Mellon University', 'Stanford Graduate School of Business', 'Indian Institute of Technology Delhi']",1.5E9,1955
+Vladimir Aleksandrovich Antonov,False,['Plekhanov Russian University of Economics'],3.0E8,1975
+Vladimir Lisin,False,"['Siberian State Industrial University', 'Russian Presidential Academy of National Economy and Public Administration']",9.1E9,1956
+Vladimir Makhlai,False,['Perm_Polytechnic_Institute'],1.0E9,1937
+Vladimir Potanin,False,['Moscow State Institute of International Relations'],12.7,1961
+Wang Chuanfu,False,"['Central South University', 'Beijing_Non-Ferrous_Research_Institute']",4.7E9,1966
+Wang Jianlin,False,['Liaoning University'],2.91E10,1954
+Wendy Williams,False,['Northeastern University'],6.0E7,1964
+William Wrigley Jr. II,False,['Phoenix Country Day School'],2.6E9,1963
+Wolfgang Marguerre,False,"['Heidelberg University', 'INSEAD']",2.8E9,1941
+Xu Ming,False,"['Dongbei University of Finance and Economics', 'Shenyang Aerospace University']",4.9E8,1971
+Yang Huiyan,False,['Ohio State University'],5.1E9,1981
+Yang Yuanqing,False,"['University of Science and Technology of China', 'Shanghai Jiao Tong University']",1.25E9,1964
+Yashoda Naidoo,False,"['University of Natal', 'University of South Africa']",1800000.0,1963
+Yiorgos Vardinogiannis,False,['Hellenic Naval Academy'],1.5E9,1936
+Yoel Bouza,False,['Florida International University'],1.5E8,1987
+Yoshikazu Tanaka,False,['Nihon University'],1.9E9,1977
+Zhang Jindong,False,['Nanjing Normal University'],5.5E9,1963
+Zhang Xin (businesswoman),False,"['University of Sussex', 'University of Cambridge']",3.6E9,1965
+Zhang Zhixiang,False,['Zhejiang University'],2.8E9,1967
+Zhou Chengjian,False,['Zhejiang University'],1.9E9,1966
+Zhou Hongyi,False,"[""Xi'an Jiaotong University""]",1.4E9,1970
+Ziyavudin Magomedov,False,['Moscow State University'],3.0E9,1968
