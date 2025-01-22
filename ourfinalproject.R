@@ -45,19 +45,20 @@ barplot2 <- ggplot(data= data_divided)+
     title='Average Net Worth of Ivy League vs. Non-Ivy League Alumni on Wikipedia',
     x= "Ivy League Alumni",
     y= "Average Net Worth in USD"
-  )
+  )+
+  theme_clean()
 #print(barplot2)
 
 #### BAR 3: net worth in y, each person by birth year in x
 
-datawithyears <- read_csv('with birth year.csv')|>
+datawithyears <- read_csv('with_birth_year_after_2019.csv')|>
   mutate(
     networth = as.numeric(networth),
     birthYear= as.numeric(birthYear))
 
 barplot3 <- ggplot(data= datawithyears)+
   aes(x=birthYear, y=networth, color=ivy_league)+
-  geom_point()+
+  geom_point(size = 0.5)+
   scale_y_log10()+
   labs(
     title='Net Worth of Ivy/Non-Ivy Alumni by Birth Year',
