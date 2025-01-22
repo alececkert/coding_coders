@@ -38,23 +38,25 @@ data_divided<- datacombined |>
 print(data_divided)
 
 barplot2 <- ggplot(data= data_divided)+
-  aes(x= ivy_league, y=networth)+
-  
+  aes(x= ivy_league, y=networth, color= ivy_league)+
   geom_col()+
   labs(
-    title='Average Net Worth of Ivy League vs. Non-Ivy League Alumni on Wikipedia',
     x= "Ivy League Alumni",
-    y= "Average Net Worth in USD"
+    y= "Average Net Worth in USD",
+    color = 'Education'
   )+
   theme_clean()
-#print(barplot2)
+    
+print(barplot2)
+ggsave('barplot.pdf')
 
 #### BAR 3: net worth in y, each person by birth year in x
 
 datawithyears <- read_csv('not_rich_with_birth_year_after_1920.csv')|>
   mutate(
     networth = as.numeric(networth),
-    birthYear= as.numeric(birthYear))
+    birthYear= as.numeric(birthYear),
+    ivy_league = ifelse(ivy_league, "Ivy league", "Non-Ivy league"))
 
 averages <- datawithyears|>
   group_by(birthYear, ivy_league)|>
@@ -67,10 +69,11 @@ barplot3 <- ggplot(data= datawithyears)+
   geom_line(data = averages, aes(x= birthYear, y= avg_networth, color= ivy_league), size=1)+
   scale_y_log10()+
   labs(
-    title='Net Worth of Ivy/Non-Ivy Alumni by Birth Year',
     x= "Year of Birth",
-    y= "Net Worth in USD"
+    y= "Net Worth in USD", 
+    color = 'Education'
   )+
   theme_clean()
 
 print(barplot3)
+ggsave('scatterlineplot.pdf')
