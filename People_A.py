@@ -96,8 +96,11 @@ def remove_NA(data):
 def born_after_1920(data):
     return [
         person for person in data
-        if isinstance(person.get("birthYear"), (str, int)) and int(person.get("birthYear", 0)) > 1920
+        if isinstance(person.get("birthYear"), (str, int))
+        and str(person.get("birthYear")).isdigit()  #ensures birthYear is numeric characters. NO LETTERSSS
+        and 1920 < int(person["birthYear"]) < 1991
     ]
+    
 
 ivy_league_alumni_filtered = remove_NA(ivy_league_alumni)
 non_ivy_league_alumni_filtered = remove_NA(non_ivy_league_alumni)
