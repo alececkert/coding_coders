@@ -54,6 +54,7 @@ datawithyears <- read_csv('with_birth_year.csv')
 barplot3 <- ggplot(data= datawithyears)+
   aes(x=birthYear, y=networth, color=ivy_league)+
   geom_point()+
+  scale_y_continous(scale_ylog10)+
   labs(
     title='Net Worth of Ivy/Non-Ivy Alumni by Birth Year',
     x= "Year of Birth",
