@@ -21,8 +21,8 @@ barplot1 <- ggplot(data= data_gr_per_ivy)+aes(x=almaMater,y=avg_networth)+
     title='Average Net Worth of Ivy League Alumni on Wikipedia',
     y= "Average Net Worth in USD"
   )
-print(barplot1)
-ggsave('barplot1.png')
+#print(barplot1)
+#ggsave('barplot1.png')
 
 
 ##BAR 2: all ivy leagues into one ######
@@ -47,4 +47,18 @@ barplot2 <- ggplot(data= data_divided)+
     y= "Average Net Worth in USD"
   )
 #print(barplot2)
-ggsave('barplot2.png')
+
+#### BAR 3: net worth in y, each person by birth year in x
+
+datawithyears <- read_csv('with_birth_year.csv')
+barplot3 <- ggplot(data= datawithyears)+
+  aes(x=birthYear, y=networth, color=ivy_league)+
+  geom_point()+
+  labs(
+    title='Net Worth of Ivy/Non-Ivy Alumni by Birth Year',
+    x= "Year of Birth",
+    y= "Net Worth in USD"
+  )+
+  theme_clean()
+  
+print(barplot3)
