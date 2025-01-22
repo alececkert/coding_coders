@@ -84,25 +84,32 @@ for entry in non_ivy_league_alumni:
     entry['ivy_league'] = False
     print(f"Name: {entry['name']}, University: {entry['education']}, Networth: {entry['networth']}")
 
-# make a csv file with the people that went to an ivy league uni - including the name, uni, and networth
+headers = ["name", "ivy_league", "education", "networth", "birthYear"]
+headers_without_birth_year = ["name", "ivy_league", "education", "networth"]
+
+def filter_fields(data, fields):
+    return [{key: item.get(key, "") for key in fields} for item in data]
+
+#make a csv with ppl that went to an ivy. 
 with open("ivy_league.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, headers_without_birth_year)
     writer.writeheader()
     writer.writerows (filter_fields(ivy_league_alumni, headers_without_birth_year))
 
-# make a csv file with the people that didn't go to an ivy league uni - including the name, uni, and networth
+#make a csv with ppl ppl that went to a non ivy 
 with open("non_ivy_league.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, headers_without_birth_year)
     writer.writeheader()
     writer.writerows (filter_fields(non_ivy_league_alumni, headers_without_birth_year))
 
-# make an csv file with the two files 'ivy_league.csv' and 'non_ivy_league.csv' combined
+#make a csv with both ivy and non-ivy.
 with open("combined.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, headers_without_birth_year)
     writer.writeheader()
     writer.writerows(filter_fields(ivy_league_alumni, headers_without_birth_year))
     writer.writerows(filter_fields(non_ivy_league_alumni, headers_without_birth_year))
 
+#make a csv with both ppl that attended ivy and non-ivy AND their birth year
 with open("with birth year.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, headers)
     writer.writeheader()
