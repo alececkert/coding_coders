@@ -55,7 +55,7 @@ for file_name in letter:
                     education.append(person["ontology/education_label"])
             
             
-            birth_year = person.get("ontology/birthYear", "Unknown")
+            birth_year = person.get("ontology/birthYear","N/A")
 
             # add person's details to the filtered data
             filtered_data.append({
@@ -90,6 +90,21 @@ headers_without_birth_year = ["name", "ivy_league", "education", "networth"]
 def filter_fields(data, fields):
     return [{key: item.get(key, "") for key in fields} for item in data]
 
+def remove_NA(data):
+    return [person for person in data if person.get("birthYear") not in ["", "N/A"]]
+
+def born_after_1920(data):
+    return [
+        person for person in data
+        if isinstance(person.get("birthYear"), (str, int)) and int(person.get("birthYear", 0)) > 1920
+    ]
+
+ivy_league_alumni_filtered = remove_NA(ivy_league_alumni)
+non_ivy_league_alumni_filtered = remove_NA(non_ivy_league_alumni)
+
+ivy_after_1920 = born_after_1920(ivy_league_alumni_filtered)
+non_ivy_after_1920 = born_after_1920(non_ivy_league_alumni_filtered) 
+
 #make a csv with ppl that went to an ivy. 
 with open("ivy_league.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, headers_without_birth_year)
@@ -110,8 +125,8 @@ with open("combined.csv", "w", encoding="utf-8", newline="") as file:
     writer.writerows(filter_fields(non_ivy_league_alumni, headers_without_birth_year))
 
 #make a csv with both ppl that attended ivy and non-ivy AND their birth year
-with open("with birth year.csv", "w", encoding="utf-8", newline="") as file:
+with open("with birth year after 2019.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, headers)
     writer.writeheader()
-    writer.writerows(ivy_league_alumni)  
-    writer.writerows(non_ivy_league_alumni)
+    writer.writerows(ivy_after_1920)  
+    writer.writerows(non_ivy_after_1920)
