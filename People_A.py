@@ -48,11 +48,15 @@ for file_name in letter:
                     education.extend(person["ontology/education_label"])
                 else:
                     education.append(person["ontology/education_label"])
+            
+            
+            birth_year = person.get("ontology/birthYear", "Unknown")
 
             filtered_data.append({
                 "name": person.get("http://www.w3.org/2000/01/rdf-schema#label"),
                 "education": education,
-                "networth": person.get("ontology/networth")
+                "networth": person.get("ontology/networth"),
+                "birthYear": birth_year
             })
 
     #for entry in filtered_data:
@@ -79,18 +83,30 @@ for entry in non_ivy_league_alumni:
     entry['ivy_league'] = False
     print(f"Name: {entry['name']}, University: {entry['education']}, Networth: {entry['networth']}")
 
+headers = ["name", "ivy_league", "education", "networth", "birthYear"]
+headers_without_birth_year = ["name", "ivy_league", "education", "networth"]
+
+def filter_fields(data, fields):
+    return [{key: item.get(key, "") for key in fields} for item in data]
+
 with open("ivy_league.csv", "w", encoding="utf-8", newline="") as file:
-    writer = csv.DictWriter(file, ["name", "ivy_league", "education", "networth"])
+    writer = csv.DictWriter(file, headers_without_birth_year)
     writer.writeheader()
-    writer.writerows(ivy_league_alumni)
+    writer.writerows (filter_fields(ivy_league_alumni, headers_without_birth_year))
 
 with open("non_ivy_league.csv", "w", encoding="utf-8", newline="") as file:
-    writer = csv.DictWriter(file, ["name", "ivy_league", "education", "networth"])
+    writer = csv.DictWriter(file, headers_without_birth_year)
     writer.writeheader()
-    writer.writerows(non_ivy_league_alumni)
+    writer.writerows (filter_fields(non_ivy_league_alumni, headers_without_birth_year))
 
 with open("combined.csv", "w", encoding="utf-8", newline="") as file:
-    writer = csv.DictWriter(file, ["name", "ivy_league", "education", "networth"])
+    writer = csv.DictWriter(file, headers_without_birth_year)
     writer.writeheader()
-    writer.writerows(ivy_league_alumni)
+    writer.writerows(filter_fields(ivy_league_alumni, headers_without_birth_year))
+    writer.writerows(filter_fields(non_ivy_league_alumni, headers_without_birth_year))
+
+with open("with birth year.csv", "w", encoding="utf-8", newline="") as file:
+    writer = csv.DictWriter(file, headers)
+    writer.writeheader()
+    writer.writerows(ivy_league_alumni)  
     writer.writerows(non_ivy_league_alumni)
