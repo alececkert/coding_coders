@@ -38,12 +38,12 @@ data_divided<- datacombined |>
 print(data_divided)
 
 barplot2 <- ggplot(data= data_divided)+
-  aes(x= ivy_league, y=networth, color= ivy_league)+
+  aes(x= ivy_league, y=networth, fill= ivy_league)+
   geom_col()+
   labs(
     x= "Ivy League Alumni",
     y= "Average Net Worth in USD",
-    color = 'Education'
+    fill = 'Education'
   )+
   theme_clean()
     
