@@ -6,12 +6,16 @@ library("ggthemes")
 
 datafile <- read_csv('results.csv')
 
-##BAR 1: per ivy league############
+##BAR 1: Difference in Net Worth WITHIN Ivy League Alumni############
+## Note: not included in report, was the first plot we did#
+
+datafile <- read_csv('results.csv')
+#Simply grouping by the Ivy (almaMater), then averaging net worth per Ivy 
 data_gr_per_ivy<- datafile|>
   group_by(almaMater)|>
   summarise(avg_networth = mean(networth))
-#filter(almaMater = (-University))
 print(data_gr_per_ivy)
+
 
 barplot1 <- ggplot(data= data_gr_per_ivy)+aes(x=almaMater,y=avg_networth)+
   geom_col()+
@@ -25,15 +29,21 @@ barplot1 <- ggplot(data= data_gr_per_ivy)+aes(x=almaMater,y=avg_networth)+
 #ggsave('barplot1.png')
 
 
-##BAR 2: all ivy leagues into one ######
+##BAR 2: Difference in the average net worth of Ivy and Non-Ivy Students #########
 
-datacombined <- read_csv('combined.csv')
+datacombined <- read_csv('not_rich_with_birth_year_after_1920.csv') 
+sum(datacombined$ivy_league, na.rm = TRUE)/nrow(datacombined)*100
+
+#This dataframe has "true/false" established for each person, 
+#filtering if they have an Ivy League within their academic history in Wiki
 data_divided<- datacombined |> 
   mutate(
     networth = as.numeric(networth),
+    #Transforming the true/false to what it stands for
     ivy_league = ifelse(ivy_league, "Ivy league", "Non-Ivy league")
   )|>
   group_by(ivy_league)|>
+  #Getting the networth average per section of alumni, excluding N/A entries
   summarise(networth=mean(networth,na.rm=TRUE))
 print(data_divided)
 
