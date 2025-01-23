@@ -13,12 +13,6 @@ ivy_league_universities = [
     "Yale"
 ]
 
-# The keys that are used to identify univerity information from the data 
-university_keys = [
-    "ontology/almaMater_label",
-    "ontology/education_label"   
-]
-
 # List all files with each letter of the alphabet
 letter=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
@@ -32,7 +26,7 @@ for file_name in letter:
     with open(f'People/{file_name}_people.json', 'r') as file:
         data = json.load(file)
 
-    #F irltered list with only names, unis, and networths
+    #Filrltered list with only names, unis, and networths
     filtered_data = []
     #Process each person's data to check if person has: name, uni, AND networth
     for person in data:
