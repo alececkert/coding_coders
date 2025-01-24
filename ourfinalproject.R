@@ -104,3 +104,44 @@ barplot3 <- ggplot(data= datawithyears)+
 
 print(barplot3)
 ggsave('scatterlineplot.pdf')
+
+
+#####OVER 5 YEARS??
+datawith5years <- read_csv('not_rich_with_birth_year_after_1920.csv') |>
+  mutate(
+    networth = as.numeric(networth),
+    birthYear = as.numeric(birthYear),
+    ivy_league = ifelse(ivy_league, "Ivy league", "Non-Ivy league")
+  )
+
+datawith5years <- datawithyears |>
+  mutate(
+    birthYearGroup = (birthYear %/% 5) * 5
+  )
+
+
+#1987 %/% 5 = 397.4 *5 = 1985
+#1988 %/% 5 = 397.6 *5= 1985
+#1990 %/% 5 = 398 *5 = 1990
+#1991 %/% 5 = 398.2 *5 = 1990
+
+
+averages_5yr <- datawith5years |>
+  group_by(birthYearGroup, ivy_league) |>
+  summarise(avg_networth = mean(networth, na.rm = TRUE)) |>
+  ungroup()
+
+scatterplot5yrinterval <- ggplot(data = datawith5years) +
+  aes(x = birthYearGroup, y = networth, color = ivy_league) +
+  geom_point(size = 0.5)+
+  geom_line(data = averages_5yr, aes(x = birthYearGroup, y = avg_networth, color = ivy_league), size = 1) +
+  scale_y_log10() +
+  labs(
+    x = "Birth Year (Grouped by 5-Year Intervals)",
+    y = "Net Worth in USD",
+    color = "Education"
+  ) +
+  theme_clean()
+
+print(scatterplot5yrinterval)
+ggsave('scatterlineplot_5yr.pdf')
