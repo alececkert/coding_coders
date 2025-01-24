@@ -57,7 +57,7 @@ barplot2 <- ggplot(data= data_divided_mean)+
     y= "Average Net Worth in USD",
     fill = 'Education'
   )+
-  theme_clean()
+  theme_clean(base_size = 18)
     
 print(barplot2)
 ggsave('barplot.pdf')
@@ -71,7 +71,7 @@ violinplot <- ggplot(data= data_divided)+
     fill = 'Education'
   )+
   scale_y_log10()+
-  theme_clean()
+  theme_clean(base_size = 18)
 
 print(violinplot)
 ggsave('violin.pdf')
@@ -100,7 +100,7 @@ barplot3 <- ggplot(data= datawithyears)+
     y= "Net Worth in USD", 
     color = 'Education'
   )+
-  theme_clean()
+  theme_clean(base_size =18 )
 
 print(barplot3)
 ggsave('scatterlineplot.pdf')
