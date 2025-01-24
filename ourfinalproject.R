@@ -42,12 +42,14 @@ data_divided<- datacombined |>
     #Transforming the true/false to what it stands for
     ivy_league = ifelse(ivy_league, "Ivy league", "Non-Ivy league")
   )|>
-  group_by(ivy_league)|>
+  group_by(ivy_league)
+
+data_divided_mean<- data_divided |> 
   #Getting the networth average per section of alumni, excluding N/A entries
   summarise(networth=mean(networth,na.rm=TRUE))
 print(data_divided)
 
-barplot2 <- ggplot(data= data_divided)+
+barplot2 <- ggplot(data= data_divided_mean)+
   aes(x= ivy_league, y=networth, fill= ivy_league)+
   geom_col()+
   labs(
@@ -59,6 +61,21 @@ barplot2 <- ggplot(data= data_divided)+
     
 print(barplot2)
 ggsave('barplot.pdf')
+
+violinplot <- ggplot(data= data_divided)+
+  aes(x= ivy_league, y=networth, fill= ivy_league)+
+  geom_violin()+
+  labs(
+    x= "Ivy League Alumni",
+    y= "Average Net Worth in USD",
+    fill = 'Education'
+  )+
+  scale_y_log10()+
+  theme_clean()
+
+print(violinplot)
+ggsave('violin.pdf')
+  
 
 #### BAR 3: net worth in y, each person by birth year in x
 
