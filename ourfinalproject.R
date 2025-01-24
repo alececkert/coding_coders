@@ -106,42 +106,41 @@ print(barplot3)
 ggsave('scatterlineplot.pdf')
 
 
-#####OVER 5 YEARS??
+
+
+
+#####OVER 5 YEARS MEDIAN
 datawith5years <- read_csv('not_rich_with_birth_year_after_1920.csv') |>
   mutate(
-    networth = as.numeric(networth),
-    birthYear = as.numeric(birthYear),
-    ivy_league = ifelse(ivy_league, "Ivy league", "Non-Ivy league")
+    networth = as.numeric(networth),  
+    birthYear = as.numeric(birthYear),  
+    ivy_league = ifelse(ivy_league, "Ivy league", "Non-Ivy league")  
   )
 
-datawith5years <- datawithyears |>
+datawith5years <- datawith5years |>
   mutate(
-    birthYearGroup = (birthYear %/% 5) * 5
-  )
+    birthYearGroup = (birthYear %/% 5) * 5)
 
 
-#1987 %/% 5 = 397.4 *5 = 1985
-#1988 %/% 5 = 397.6 *5= 1985
-#1990 %/% 5 = 398 *5 = 1990
-#1991 %/% 5 = 398.2 *5 = 1990
-
-
-averages_5yr <- datawith5years |>
+median_5yr <- datawith5years |>
   group_by(birthYearGroup, ivy_league) |>
-  summarise(avg_networth = mean(networth, na.rm = TRUE)) |>
+  summarise(avg_networth = median(networth, na.rm = TRUE)) |>
   ungroup()
+print(median_5yr)
 
 scatterplot5yrinterval <- ggplot(data = datawith5years) +
   aes(x = birthYearGroup, y = networth, color = ivy_league) +
-  geom_point(size = 0.5)+
-  geom_line(data = averages_5yr, aes(x = birthYearGroup, y = avg_networth, color = ivy_league), size = 1) +
-  scale_y_log10() +
+  geom_point(size = 0.5) + 
+  geom_line(data = median_5yr, aes(x = birthYearGroup, y = avg_networth, color = ivy_league), size = 1) +  # Line for median values
+  scale_y_log10() +  
   labs(
     x = "Birth Year (Grouped by 5-Year Intervals)",
     y = "Net Worth in USD",
     color = "Education"
   ) +
-  theme_clean()
+  theme_clean(base_size = 16)  
 
 print(scatterplot5yrinterval)
-ggsave('scatterlineplot_5yr.pdf')
+
+ggsave('scatterplot5yrinterval.pdf')
+
